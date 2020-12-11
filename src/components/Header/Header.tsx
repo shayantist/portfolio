@@ -27,16 +27,16 @@ function Header() {
 
         <NavMenu isOpen={isOpen} onClick={handleIsOpen}>
           <NavItem>
-            <NavLink to="/">Work</NavLink>
+            <NavLink to="/portfolio">Work</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/research">Research</NavLink>
+            <NavLink to="/portfolio/research">Research</NavLink>
           </NavItem>
           {/* <NavItem>
             <NavLink to="/projects">Projects</NavLink>
           </NavItem> */}
           <NavItem>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/portfolio/about">About</NavLink>
           </NavItem>
         </NavMenu>
       </NavContainer>

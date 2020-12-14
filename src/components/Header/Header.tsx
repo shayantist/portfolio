@@ -17,9 +17,10 @@ function Header() {
   return (
     <HeaderContainer>
       <NavContainer>
-        <NavLogo to="/">
+        {/* <NavLogo to="/">
           <FaSnowman style={{ marginRight: "0.5rem" }} />
-        </NavLogo>
+          <b>S</b>
+        </NavLogo> */}
 
         <HamburgerIcon onClick={handleIsOpen}>
           {isOpen ? <FaTimes /> : <FaBars />}
@@ -27,16 +28,16 @@ function Header() {
 
         <NavMenu isOpen={isOpen} onClick={handleIsOpen}>
           <NavItem>
-            <NavLink to="/portfolio">Work</NavLink>
+            <NavLink to="/">Work</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/portfolio/research">Research</NavLink>
+            <NavLink to="/research">Research</NavLink>
           </NavItem>
           {/* <NavItem>
             <NavLink to="/projects">Projects</NavLink>
           </NavItem> */}
           <NavItem>
-            <NavLink to="/portfolio/about">About</NavLink>
+            <NavLink to="/about">About</NavLink>
           </NavItem>
         </NavMenu>
       </NavContainer>

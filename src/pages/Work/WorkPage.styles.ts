@@ -20,34 +20,7 @@ export const HeroSection = styled(SectionContainer)`
 export const HeroTextWrapper = styled.div`
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {
-    margin: -3em auto 2em;
-  }
-
-  h1 {
-    background: linear-gradient(
-      271deg,
-      #a0e9ff 30%,
-      #a162e8 50%,
-      #f093b0 70%,
-      #edca85 94%
-    );
-    background-clip: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 300% 300%;
-    animation: gradient 15s ease infinite;
-
-    @keyframes gradient {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
-    }
+    margin: -2em auto 2em;
   }
 `;
 

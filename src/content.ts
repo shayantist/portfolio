@@ -8,7 +8,7 @@ export const work = {
     title: "Current Work",
     works: [
       {
-        title: "COVID-19 in Bangladesh",
+        title: "[COVID-19 in Bangladesh](https://corona.gov.bd/)",
         subtitle: "Data Analyst & Coordinator",
         link: "https://corona.gov.bd/",
         image: "",
@@ -16,7 +16,7 @@ export const work = {
           "With the **Ministry of Health**, I **coordinated COVID-19 epidemiological data analysis** and the **development of decision-making tools** for senior policymakers to make **timely decisions on lives and livelihoods across the country**.",
       },
       {
-        title: "Reach4Help",
+        title: "[Reach4Help](https://reach4help.org/)",
         subtitle: "Executive Director & Co-founder",
         link: "https://reach4help.org/",
         image: "",
@@ -24,7 +24,7 @@ export const work = {
           "Since co-founding it in March, I lead the **tech nonprofit Reach4Help**, **connecting people in need with local volunteer help**. We're working with **volunteer organizations worldwide** from the US, Canada, Europe and Asia, amassing over **500 volunteers from 30 countries**.",
       },
       {
-        title: "Migrant Nation",
+        title: "[Migrant Nation](https://migrantnation.org/)",
         subtitle: "Software Developer",
         link: "https://migrantnation.org/",
         image: "",
@@ -38,7 +38,7 @@ export const work = {
 export const research = {
   title: "My research story",
   description:
-    "Growing up immersed in health issues, from taking care of my cancer-stricken grandmother at 8 to being bedridden from COVID myself at 17, **I'm devoted to solving health problems through medical research**. For the last four years, I’ve been fortunate to be part of **cutting-edge medical and data science research** through internships at the [New York Genome Center](https://www.nygenome.org/), [Google](https://research.google/outreach/csrmp/) and Nobel laureate [Joachim Frank's lab](https://franklab.cpmc.columbia.edu/franklab/) at Columbia University. Now, I'm conducting and coordinating data science and epidemiological research on COVID-19 in Bangladesh and recently co-authored a paper.",
+    "Growing up immersed in health issues, from taking care of my cancer-stricken grandmother at 8 to being bedridden from COVID myself at 17, I've grown a **passion for solving health problems through medical research**. For the last four years, I’ve been fortunate to be part of **cutting-edge medical and data science research** through internships at the [New York Genome Center](https://www.nygenome.org/), [Google](https://research.google/outreach/csrmp/) and Nobel laureate [Joachim Frank's lab](https://franklab.cpmc.columbia.edu/franklab/) at Columbia University. Now, I'm conducting and coordinating data science and epidemiological research on COVID-19 in Bangladesh and recently co-authored a paper.",
   papersSection: {
     title: "Papers",
     description:
@@ -55,7 +55,7 @@ export const research = {
       },
       {
         title:
-          "[Characterizing Noise in Whole Genome Cell-Free DNA Analysis](/)",
+          "[Characterizing Noise in Whole Genome Cell-Free DNA Analysis](docs/Characterizing%20Noise%20in%20Whole%20Genome%20Cell-Free%20DNA%20Analysis%20-%20Research%20Paper.pdf)",
         subtitle: "November 2018",
         authors: " **Author:** *Shayan Chowdhury*",
         institutions:
@@ -86,5 +86,10 @@ export const research = {
 export const about = {
   title: "A bit about myself",
   description:
-    "I'm a recent graduate of Stuyvesant High School in NYC, currently taking a gap year working in Bangladesh. This last year's been tough for everyone, so I wanted to take my love for technology and [research](/research) to make a positive impact in the lives of people sufferring from the disasters that defined 2020. Outside of work, I love playing guitar, making music and sleeping.",
+    "I'm a recent graduate of Stuyvesant High School in NYC, currently taking a gap year working in Bangladesh. This last year's been tough for everyone, so I wanted to take my love for technology and [research](/research) to make a positive impact in the lives of people suffering from the disasters that defined 2020. Outside of work, I love playing guitar, making music and sleeping. <br/> [For those interested, here's my resume.](docs/Shayan%20Chowdhury%20-%20Resume.pdf)",
+  contact_section: {
+    title: "Feel free to reach out!",
+    description:
+      "Whether you'd like to debate humanity's fate under AI, discuss music theory or just share some memes, I'd love to have a chat with you! Feel free to reach out via [email](mailto:shayan.chowdhury@gmail.com). For professional inquiries, please check my [LinkedIn](https://www.linkedin.com/in/shayan-chowdhury-4052b624/). Or if you're an adventurous coder, take a peek at my [GitHub](https://github.com/schowdhury8).",
+  },
 };

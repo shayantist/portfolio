@@ -14,6 +14,6 @@ export const darkTheme: DefaultTheme = {
     maxWidth: 1300,
   },
   fonts: {
-    main: "Source Sans Pro",
+    main: "Poppins",
   },
 };

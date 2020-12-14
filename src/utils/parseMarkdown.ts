@@ -30,7 +30,7 @@ export default function parseMarkdown(md: string) {
   //links
   md = md.replace(
     /[[]{1}([^\]]+)[\]]{1}[(]{1}([^)"]+)("(.+)")?[)]{1}/g,
-    '<a href="$2" target="_blank" title="$4">$1</a>'
+    '<a href="$2" title="$4">$1</a>'
   );
 
   //font styles

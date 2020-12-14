@@ -8,6 +8,31 @@ export const SectionContainer = styled.section`
   h1 {
     font-size: 4.5em;
     line-height: 122%;
+
+    background: linear-gradient(
+      271deg,
+      #a0e9ff 30%,
+      #a162e8 50%,
+      #f093b0 70%,
+      #edca85 94%
+    );
+    background-clip: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+    animation: gradient 15s ease infinite;
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
   }
 
   h2 {
@@ -22,6 +47,7 @@ export const SectionContainer = styled.section`
   p {
     font-size: 1.3em;
     line-height: 1.7;
+    font-weight: 500;
   }
 
   a {

@@ -16,7 +16,7 @@ export const NavContainer = styled.nav`
   margin: 0 auto 0;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
   font-size: 1.3rem;
 
@@ -27,10 +27,10 @@ export const NavContainer = styled.nav`
     }
   }
 
-  @media screen and (max-width: ${(props) =>
-      props.theme.measurements.mobileBreakpoint}px) {
+  /* @media screen and (max-width: ${(props) =>
+    props.theme.measurements.mobileBreakpoint}px) {
     padding: 0 30px;
-  }
+  } */
 `;
 
 export const NavLogo = styled(Link)`
@@ -46,8 +46,8 @@ export const NavLogo = styled(Link)`
 export const HamburgerIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: ${(props) =>
-      props.theme.measurements.mobileBreakpoint}px) {
+  /* @media screen and (max-width: ${(props) =>
+    props.theme.measurements.mobileBreakpoint}px) {
     display: block;
     position: absolute;
     top: 0;
@@ -55,7 +55,7 @@ export const HamburgerIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-  }
+  } */
 `;
 
 export const NavMenu = styled.ul<{ isOpen: boolean }>`
@@ -65,8 +65,8 @@ export const NavMenu = styled.ul<{ isOpen: boolean }>`
   text-align: center;
   font-weight: bold;
 
-  @media screen and (max-width: ${(props) =>
-      props.theme.measurements.mobileBreakpoint}px) {
+  /* @media screen and (max-width: ${(props) =>
+    props.theme.measurements.mobileBreakpoint}px) {
     flex-direction: column;
     width: 100%;
     height: 90vh;
@@ -76,16 +76,16 @@ export const NavMenu = styled.ul<{ isOpen: boolean }>`
     opacity: 1;
     transition: all 0.5s ease;
     background: ${(props) => props.theme.colors.background};
-  }
+  } */
 `;
 
 export const NavItem = styled.li`
   height: 80px;
 
-  @media screen and (max-width: ${(props) =>
-      props.theme.measurements.mobileBreakpoint}px) {
+  /* @media screen and (max-width: ${(props) =>
+    props.theme.measurements.mobileBreakpoint}px) {
     width: 100%;
-  }
+  } */
 `;
 
 export const NavLink = styled(Link)`
@@ -98,13 +98,15 @@ export const NavLink = styled(Link)`
 
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {
-    text-align: center;
+    /* text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
 
     :hover {
       color: ${(props) => props.theme.colors.accent};
-    }
+    } */
+
+    padding: 0.5rem;
   }
 `;

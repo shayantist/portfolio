@@ -12,7 +12,6 @@ interface Props {
 }
 
 function Card(props: Props) {
-  console.log(props.image);
   return (
     <CardWrapper>
       {props.subtitle ? (

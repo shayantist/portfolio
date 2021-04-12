@@ -1,5 +1,3 @@
-import r4hImage from "./assets/r4h.png";
-
 export const work = {
   title: "Hi, I'm Shayan",
   description:
@@ -66,7 +64,7 @@ export const research = {
           "[Single-Cell Methylome and Transcriptome High-Resolution Maps Define the Effects of Epigenetic Modifiers on the Landscape of Hematopoietic Differentiation](https://ashpublications.org/blood/article/130/Supplement%201/559/115871/Single-Cell-Methylome-and-Transcriptome-High)",
         subtitle: "January 2018",
         authors:
-          " **Authors:** Franco Izzo, PhD, Asaf Poran, Stanley Chun-Wei Lee, PhD, Ronan Chaligne, PhD, Federico Gaiti, PhD, Steven Kothen-Hill, MS, Rafael Schulman, BS, Michelle Ki, Kenigsberg Ephraim, PhD, Omar Abdel-Wahab, MD, Dan A. Landau, MD PhD <br/> ***(I CONTRIBUTED, NOT AN AUTHOR)***",
+          " **Authors:** Franco Izzo, PhD, Asaf Poran, Stanley Chun-Wei Lee, PhD, Ronan Chaligne, PhD, Federico Gaiti, PhD, Steven Kothen-Hill, MS, Rafael Schulman, BS, Michelle Ki, Kenigsberg Ephraim, PhD, Omar Abdel-Wahab, MD, Dan A. Landau, MD PhD <br/> ***(CONTRIBUTOR, NOT AN AUTHOR)***",
         institutions:
           " **Institution:** Landau Lab, New York Genome Center / Weill Cornell Medical Center ",
       },
@@ -75,7 +73,7 @@ export const research = {
           "[Single-Cell Methylome and Transcriptome High-Resolution Maps Define the Effects of Epigenetic Modifiers on the Landscape of Hematopoietic Differentiation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5333260/)",
         subtitle: "January 2017",
         authors:
-          " **Authors:** Austin M. Coe, MPH, William Ueng, MPH, Jennifer M. Vargas, BS, Raven David, MPH, Alejandro Vanegas, MS, Katherine Infante, MPH, Meghna Trivedi, MD, Haeseung Yi, MPA, Jill Dimond, PhD, Katherine D. Crew, MD, MS, and Rita Kukafka, DrPH, MA <br/> ***(I CONTRIBUTED, NOT AN AUTHOR)***",
+          " **Authors:** Austin M. Coe, MPH, William Ueng, MPH, Jennifer M. Vargas, BS, Raven David, MPH, Alejandro Vanegas, MS, Katherine Infante, MPH, Meghna Trivedi, MD, Haeseung Yi, MPA, Jill Dimond, PhD, Katherine D. Crew, MD, MS, and Rita Kukafka, DrPH, MA <br/> ***(CONTRIBUTOR, NOT AN AUTHOR)***",
         institutions:
           " **Institution:** Crew Lab, Herbert Irving Comprehensive Cancer Center, Columbia University, College of Physicians and Surgeons ",
       },

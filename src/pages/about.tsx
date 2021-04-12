@@ -1,22 +1,25 @@
 import React from "react";
+import Head from "next/head";
 import {
   HeroSection,
   HeroTextWrapper,
   HeroFunWrapper,
   ContactSection,
-} from "./AboutPage.styles";
+} from "../styles/pages/about.styles";
 
-import { Page } from "../../components";
-import { about as content } from "../../content";
-import parseMarkdown from "../../utils/parseMarkdown";
-import Me from "../../assets/me.jpg";
+import { Page } from "../components";
+import { about as content } from "../content";
+import parseMarkdown from "../utils/parseMarkdown";
 
 function AboutPage() {
   return (
     <Page>
+      <Head>
+        <title>Shayan Chowdhury | About</title>
+      </Head>
       <HeroSection>
         <HeroFunWrapper>
-          <img src={Me} alt="" />
+          <img src="/assets/me.jpg" alt="" />
         </HeroFunWrapper>
         <HeroTextWrapper>
           <h1>{content.title}</h1>

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.header`
   background: ${(props) => props.theme.colors.background};
@@ -33,31 +32,6 @@ export const NavContainer = styled.nav`
   } */
 `;
 
-export const NavLogo = styled(Link)`
-  display: flex;
-  color: ${(props) => props.theme.colors.text};
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  align-items: center;
-  margin-right: 0.5rem;
-`;
-
-export const HamburgerIcon = styled.div`
-  display: none;
-
-  /* @media screen and (max-width: ${(props) =>
-    props.theme.measurements.mobileBreakpoint}px) {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
-    cursor: pointer;
-  } */
-`;
-
 export const NavMenu = styled.ul<{ isOpen: boolean }>`
   display: flex;
   align-items: center;
@@ -82,23 +56,17 @@ export const NavMenu = styled.ul<{ isOpen: boolean }>`
 export const NavItem = styled.li`
   height: 80px;
 
-  /* @media screen and (max-width: ${(props) =>
-    props.theme.measurements.mobileBreakpoint}px) {
-    width: 100%;
-  } */
-`;
+  a {
+    color: ${(props) => props.theme.colors.text};
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
 
-export const NavLink = styled(Link)`
-  color: ${(props) => props.theme.colors.text};
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  height: 100%;
-
-  @media screen and (max-width: ${(props) =>
-      props.theme.measurements.mobileBreakpoint}px) {
-    /* text-align: center;
+    @media screen and (max-width: ${(props) =>
+        props.theme.measurements.mobileBreakpoint}px) {
+      /* text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
@@ -107,6 +75,12 @@ export const NavLink = styled(Link)`
       color: ${(props) => props.theme.colors.accent};
     } */
 
-    padding: 0.5rem;
+      padding: 0.5rem;
+    }
   }
+
+  /* @media screen and (max-width: ${(props) =>
+    props.theme.measurements.mobileBreakpoint}px) {
+    width: 100%;
+  } */
 `;

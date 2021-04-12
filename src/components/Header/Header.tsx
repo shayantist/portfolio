@@ -1,13 +1,10 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaSnowman } from "react-icons/fa";
+import Link from "next/link";
 import {
   HeaderContainer,
   NavContainer,
-  NavLogo,
-  HamburgerIcon,
   NavMenu,
   NavItem,
-  NavLink,
 } from "./Header.styles";
 
 function Header() {
@@ -17,27 +14,27 @@ function Header() {
   return (
     <HeaderContainer>
       <NavContainer>
-        {/* <NavLogo to="/">
+        {/* <NavLogo href="/">
           <FaSnowman style={{ marginRight: "0.5rem" }} />
           <b>S</b>
         </NavLogo> */}
 
-        <HamburgerIcon onClick={handleIsOpen}>
+        {/* <HamburgerIcon onClick={handleIsOpen}>
           {isOpen ? <FaTimes /> : <FaBars />}
-        </HamburgerIcon>
+        </HamburgerIcon> */}
 
         <NavMenu isOpen={isOpen} onClick={handleIsOpen}>
           <NavItem>
-            <NavLink to="/">Work</NavLink>
+            <Link href="/">Work</Link>
           </NavItem>
           <NavItem>
-            <NavLink to="/research">Research</NavLink>
+            <Link href="/research">Research</Link>
           </NavItem>
           {/* <NavItem>
-            <NavLink to="/projects">Projects</NavLink>
+            <NavLink href="/projects">Projects</NavLink>
           </NavItem> */}
           <NavItem>
-            <NavLink to="/about">About</NavLink>
+            <Link href="/about">About</Link>
           </NavItem>
         </NavMenu>
       </NavContainer>

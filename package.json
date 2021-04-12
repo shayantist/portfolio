@@ -8,11 +8,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "start-api": "cd api && venv/Scripts/flask run --no-debugger",
     "lint": "eslint ./src && prettier --check \"./src/**/*.{ts,tsx}\"",
-    "lint:fix": "eslint ./src --fix && prettier --write \"./src/**/*.{ts,tsx}\"",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "lint:fix": "eslint ./src --fix && prettier --write \"./src/**/*.{ts,tsx}\""
   },
   "dependencies": {
     "framer-motion": "^2.9.5",

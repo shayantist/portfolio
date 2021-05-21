@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 import {
   HeroSection,
   HeroTextWrapper,
@@ -28,7 +29,13 @@ function HomePage() {
           ></h3>
         </HeroTextWrapper>
         <HeroFunWrapper>
-          <img src="/assets/thonk.gif" alt="" />
+          <Image
+            src="/assets/thonk.gif"
+            alt="look at this dude"
+            width={500}
+            height={500}
+            quality={100}
+          />
         </HeroFunWrapper>
       </HeroSection>
       <WorksSection>

@@ -40,12 +40,12 @@ export const research = {
   papersSection: {
     title: "Papers",
     description:
-      "In September 2020, I got the honor of **co-authoring my first formal paper for peer review** alongside my colleagues and mentors from **UC Berkeley and Harvard**! In the past, I've also written for research competitions and contributed to multiple papers listed below.",
+      "In September 2020, I got the honor of **co-authoring my first formal publication to the journal Epidemics** alongside my colleagues and mentors from **UC Berkeley and Harvard**! In the past, I've also written for research competitions and contributed to multiple papers listed below.",
     papers: [
       {
         title:
-          "[Participatory syndromic surveillance as a tool for tracking COVID-19 in Bangladesh](https://doi.org/10.1101/2020.08.28.20183905)",
-        subtitle: "September 2020",
+          "[Participatory syndromic surveillance as a tool for tracking COVID-19 in Bangladesh](https://www.sciencedirect.com/science/article/pii/S1755436521000219)",
+        subtitle: "April 2021",
         authors:
           " **Authors:** Ayesha S Mahmud, *Shayan Chowdhury*, Kawsar Hossain Sojib, Anir Chowdhury, Md. Tanvir Quader, Sangita Paul, Md. Sheikh Saidy, Ramiz Uddin, Kenth Engo-Monsen, Caroline O Buckee",
         institutions:
@@ -84,10 +84,10 @@ export const research = {
 export const about = {
   title: "A bit about myself",
   description:
-    "I'm a recent graduate of Stuyvesant High School in NYC, currently taking a gap year working in Bangladesh. This last year's been tough for everyone, so I wanted to take my love for technology and [research](/research) to make a positive impact in the lives of people suffering from the disasters that defined 2020. Outside of work, I love playing guitar, making music and sleeping. <br/> [For those interested, here's my resume.](docs/Shayan%20Chowdhury%20-%20Resume.pdf)",
+    "I'm a recent graduate of Stuyvesant High School in NYC, currently taking a gap year working in Bangladesh. The last year's been tough for everyone, so I wanted to channel my love for technology and [research](/research) to make a positive impact in the lives of people suffering from the disasters that defined 2020. Outside of work, I love playing guitar, [browsing Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/hp9wwp/biggest_lie/) and sleeping. <br/> [For those interested, here's my resume.](docs/Shayan%20Chowdhury%20-%20Resume.pdf)",
   contact_section: {
     title: "Feel free to reach out!",
     description:
-      "Whether you'd like to debate humanity's fate under AI, discuss music theory or just share some memes, I'd love to have a chat with you! Feel free to reach out via [email](mailto:shayan.chowdhury@gmail.com). For professional inquiries, please check my [LinkedIn](https://www.linkedin.com/in/shayan-chowdhury-4052b624/). Or if you're an adventurous coder, take a peek at my [GitHub](https://github.com/schowdhury8).",
+      "Whether you'd like to discuss music composition through AI or just share some memes, I'd love to have a chat with you! Feel free to reach out via [email](mailto:shayan.chowdhury@gmail.com). For professional inquiries, please check my [LinkedIn](https://www.linkedin.com/in/shayan-chowdhury-4052b624/). Or if you're an adventurous coder, take a peek at my [GitHub](https://github.com/schowdhury8).",
   },
 };

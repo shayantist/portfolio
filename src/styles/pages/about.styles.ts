@@ -29,14 +29,20 @@ export const HeroFunWrapper = styled(CardWrapper)`
   align-items: center;
   justify-content: center;
   padding: 1em;
-  height: 300px;
-  width: 300px;
+  min-height: 300px;
+  min-width: 300px;
 
   img {
     height: 100%;
-    width: auto;
+    width: 100%;
     border-radius: 20px;
     filter: grayscale(100%);
+  }
+
+  @media screen and (max-width: ${(props) =>
+      props.theme.measurements.mobileBreakpoint}px) {
+    max-width: 300px;
+    margin: -30px 0;
   }
 `;
 

@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 import {
   HeroSection,
   HeroTextWrapper,
@@ -19,7 +20,13 @@ function AboutPage() {
       </Head>
       <HeroSection>
         <HeroFunWrapper>
-          <img src="/assets/me.jpg" alt="" />
+          <Image
+            src="/assets/me.jpg"
+            alt="look at this dude"
+            width={500}
+            height={500}
+            quality={100}
+          />
         </HeroFunWrapper>
         <HeroTextWrapper>
           <h1>{content.title}</h1>

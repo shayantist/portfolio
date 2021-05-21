@@ -25,11 +25,17 @@ export const HeroTextWrapper = styled.div`
 `;
 
 export const HeroFunWrapper = styled(CardWrapper)`
-  height: 500px;
-  max-width: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 5em;
+  height: 500px;
+  max-width: 500px;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
 
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {

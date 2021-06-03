@@ -55,6 +55,7 @@ export const NavMenu = styled.ul<{ isOpen: boolean }>`
 
 export const NavItem = styled.li`
   height: 80px;
+  font-size: clamp(0.8em, 6.5vw, 1.25em);
 
   a {
     color: ${(props) => props.theme.colors.text};

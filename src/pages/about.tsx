@@ -34,16 +34,20 @@ function AboutPage() {
             dangerouslySetInnerHTML={{
               __html: parseMarkdown(content.description),
             }}
-          ></p>
+          />
         </HeroTextWrapper>
       </HeroSection>
       <ContactSection>
-        <h2>{content.contact_section.title}</h2>
+        <h3
+          dangerouslySetInnerHTML={{
+            __html: parseMarkdown(content.contact_section.title),
+          }}
+        />
         <p
           dangerouslySetInnerHTML={{
             __html: parseMarkdown(content.contact_section.description),
           }}
-        ></p>
+        />
       </ContactSection>
     </Page>
   );

@@ -1,22 +1,16 @@
 import styled from "styled-components";
 
 import { Card, SectionContainer } from "../../components";
+import { HeroSection as IndexHeroSection } from "./index.styles";
 
-export const HeroSection = styled(SectionContainer)`
-  padding-top: ${(props) =>
-    props.theme.measurements.headerHeight + 25}px; /* 100 */
-
-  @media screen and (max-width: ${(props) =>
-      props.theme.measurements.mobileBreakpoint}) {
-    padding-top: ${(props) => props.theme.measurements.headerHeight + 25}px;
-    flex-wrap: wrap;
-  }
+export const HeroSection = styled(IndexHeroSection)`
+  display: block;
 `;
 
 export const ResearchSection = styled(SectionContainer)`
   display: grid;
   gap: 1em;
-  margin: 5em auto 0;
+  margin: 3em auto 0;
 `;
 
 export const ResearchCard = styled(Card)`

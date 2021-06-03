@@ -1,21 +1,9 @@
 import styled from "styled-components";
 
 import { CardWrapper, SectionContainer } from "../../components";
+import { HeroSection as IndexHeroSection } from "./index.styles";
 
-export const HeroSection = styled(SectionContainer)`
-  display: flex;
-  gap: 3em;
-  align-items: center;
-  justify-content: center;
-
-  padding-top: ${(props) => props.theme.measurements.headerHeight + 50}px;
-
-  @media screen and (max-width: ${(props) =>
-      props.theme.measurements.mobileBreakpoint}px) {
-    padding-top: ${(props) => props.theme.measurements.headerHeight + 50}px;
-    flex-wrap: wrap;
-  }
-`;
+export const HeroSection = styled(IndexHeroSection)``;
 
 export const HeroTextWrapper = styled.div`
   @media screen and (max-width: ${(props) =>
@@ -42,14 +30,13 @@ export const HeroFunWrapper = styled(CardWrapper)`
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {
     max-width: 300px;
-    margin: -30px 0;
   }
 `;
 
 export const ContactSection = styled(SectionContainer)`
   display: grid;
   gap: 1em;
-  margin: 5em auto 0;
+  margin: 4em auto 0;
 
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {

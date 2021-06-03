@@ -1,17 +1,17 @@
 export const work = {
   title: "Hi, I'm Shayan",
   description:
-    "I'm a data scientist, entrepreneur and software developer working in Bangladesh to fight COVID-19. <br/> <br/> Thanks for dropping by!",
+    "I'm a **data scientist, entrepreneur and software developer working in Bangladesh to fight COVID-19.** <br/> <br/> Thanks for dropping by!",
   currentWork: {
     title: "Current Work",
     works: [
       {
         title: "[COVID-19 in Bangladesh](https://corona.gov.bd/)",
-        subtitle: "Data Analyst & Coordinator",
+        subtitle: "Data Analyst",
         link: "https://corona.gov.bd/",
         image: "",
         description:
-          "With the **Ministry of Health**, I **coordinated COVID-19 epidemiological data analysis** and the **development of decision-making tools** for senior policymakers to make **timely decisions on lives and livelihoods across the country**.",
+          "As a member of the **National COVID-19 Policy Dashboard Commitee** under the **Ministries of Health and IT**, I analyze COVID-19 data on tests, cases, hospitalizations, deaths and movement across the country to influence national policy on testing, targeted lockdowns and now vaccinations. Since March 2020, I've been **coordinating epidemiological data analysis and modeling** with reputed research institutions and **developing decision-making tools** for senior policymakers, from district coordinators to the Prime Minister, to make **timely decisions on lives and livelihoods across the country**.",
       },
       {
         title: "[Reach4Help](https://reach4help.org/)",
@@ -19,7 +19,7 @@ export const work = {
         link: "https://reach4help.org/",
         image: "",
         description:
-          "Since co-founding it in March, I lead the **tech nonprofit Reach4Help**, **connecting people in need with local volunteer help**. We're working with **volunteer organizations worldwide** from the US, Canada, Europe and Asia, amassing over **500 volunteers from 30 countries**.",
+          "Since co-founding it in March 2020, I lead the **tech nonprofit Reach4Help**, **connecting people in need with local volunteer help**. We're working with **volunteer organizations worldwide** from the US, Canada, Europe and Asia, amassing over **500 volunteers from 30 countries.** Recently, to support the Indian people against the devastation caused by the **recent surge** of cases there, we've been working alongside teams in the field to put up **critical COVID-19 resources** (hospital beds, oxygen cylinders, medicine, etc.) on our **[global map of aid](https://map.reach4help.org/)** across India!",
       },
       {
         title: "[Migrant Nation](https://migrantnation.org/)",
@@ -27,7 +27,7 @@ export const work = {
         link: "https://migrantnation.org/",
         image: "",
         description:
-          "In the **Rohingya refugee camps**, I'm developing an **e-commerce marketplace** with **UNDP agencies** to help the refugees **produce and sell products to consumers worldwide**, on the way to **financial sustainability**. Recently, I built an app for them to **earn hourly wages while ensuring they can't be exploited** in by far, the most fulfilling experience of my life.",
+          "In the **Rohingya refugee camps**, I'm developing an **e-commerce marketplace** with **United Nations agencies** (UNDP, UNHCR, WFP) to help those who have been displaced **produce and sell products to consumers worldwide**, on the way to **financial sustainability**. Recently, I built an app currently being used in the camps for them to **earn hourly wages while ensuring they can't be exploited** in by far, the most fulfilling experience of my life.",
       },
     ],
   },
@@ -61,15 +61,6 @@ export const research = {
       },
       {
         title:
-          "[Single-Cell Methylome and Transcriptome High-Resolution Maps Define the Effects of Epigenetic Modifiers on the Landscape of Hematopoietic Differentiation](https://ashpublications.org/blood/article/130/Supplement%201/559/115871/Single-Cell-Methylome-and-Transcriptome-High)",
-        subtitle: "January 2018",
-        authors:
-          " **Authors:** Franco Izzo, PhD, Asaf Poran, Stanley Chun-Wei Lee, PhD, Ronan Chaligne, PhD, Federico Gaiti, PhD, Steven Kothen-Hill, MS, Rafael Schulman, BS, Michelle Ki, Kenigsberg Ephraim, PhD, Omar Abdel-Wahab, MD, Dan A. Landau, MD PhD <br/> ***(CONTRIBUTOR, NOT AN AUTHOR)***",
-        institutions:
-          " **Institution:** Landau Lab, New York Genome Center / Weill Cornell Medical Center ",
-      },
-      {
-        title:
           "[Single-Cell Methylome and Transcriptome High-Resolution Maps Define the Effects of Epigenetic Modifiers on the Landscape of Hematopoietic Differentiation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5333260/)",
         subtitle: "January 2017",
         authors:
@@ -86,7 +77,7 @@ export const about = {
   description:
     "I'm a recent graduate of Stuyvesant High School in NYC, currently taking a gap year working in Bangladesh. The last year's been tough for everyone, so I wanted to channel my love for technology and [research](/research) to make a positive impact in the lives of people suffering from the disasters that defined 2020. Outside of work, I love playing guitar, [browsing Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/hp9wwp/biggest_lie/) and sleeping. <br/> [For those interested, here's my resume.](docs/Shayan%20Chowdhury%20-%20Resume.pdf)",
   contact_section: {
-    title: "Feel free to reach out!",
+    title: " **Feel free to reach out!**",
     description:
       "Whether you'd like to discuss music composition through AI or just share some memes, I'd love to have a chat with you! Feel free to reach out via [email](mailto:shayan.chowdhury@gmail.com). For professional inquiries, please check my [LinkedIn](https://www.linkedin.com/in/shayan-chowdhury-4052b624/). Or if you're an adventurous coder, take a peek at my [GitHub](https://github.com/schowdhury8).",
   },

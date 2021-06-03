@@ -19,6 +19,10 @@ export const CardWrapper = styled.div`
 
   h3 {
     margin: 0.3em 0;
+
+    a {
+      font-weight: bold;
+    }
   }
 
   img {

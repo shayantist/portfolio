@@ -8,21 +8,16 @@ export const HeroSection = styled(SectionContainer)`
   align-items: center;
   justify-content: center;
 
-  padding-top: ${(props) => props.theme.measurements.headerHeight + 50}px;
+  padding-top: ${(props) => props.theme.measurements.headerHeight + 40}px;
 
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {
-    padding-top: ${(props) => props.theme.measurements.headerHeight + 50}px;
+    padding-top: ${(props) => props.theme.measurements.headerHeight}px;
     flex-wrap: wrap;
   }
 `;
 
-export const HeroTextWrapper = styled.div`
-  @media screen and (max-width: ${(props) =>
-      props.theme.measurements.mobileBreakpoint}px) {
-    margin: -2em auto 2em;
-  }
-`;
+export const HeroTextWrapper = styled.div``;
 
 export const HeroFunWrapper = styled(CardWrapper)`
   display: flex;
@@ -51,6 +46,7 @@ export const WorksSection = styled(SectionContainer)`
 
   .things {
     display: flex;
+    flex-direction: column;
     gap: 1em;
 
     @media screen and (max-width: ${(props) =>

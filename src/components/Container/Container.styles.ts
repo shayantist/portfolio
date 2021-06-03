@@ -6,7 +6,7 @@ export const SectionContainer = styled.section`
   max-width: ${(props) => props.theme.measurements.maxWidth}px;
 
   h1 {
-    font-size: 4.5em;
+    font-size: clamp(1.5em, 14vw, 4.5em);
     line-height: 122%;
 
     background: linear-gradient(
@@ -40,7 +40,8 @@ export const SectionContainer = styled.section`
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: clamp(1.5em, 8vw, 2rem);
+    font-weight: normal;
     line-height: 1.2;
   }
 

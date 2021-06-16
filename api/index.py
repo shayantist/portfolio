@@ -1,14 +1,19 @@
 import time
-from flask import Flask
+from flask import Flask, Blueprint, jsonify
 
-app = Flask(__name__)
+api = Blueprint("api", __name__)
 
 
-@app.route("/")
+@api.route("/")
 def hello_world():
     return "Hello world!"
 
 
-@app.route("/time")
+@api.route("/time")
 def get_current_time():
-    return {"time": time.time()}
+    current_time = {"time": time.time()}
+    return jsonify(current_time)
+
+
+app = Flask(__name__)
+app.register_blueprint(api, url_prefix="/api")

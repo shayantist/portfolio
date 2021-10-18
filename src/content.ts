@@ -1,7 +1,7 @@
 export const work = {
   title: "Hi, I'm Shayan",
   description:
-    "I'm a **data scientist, entrepreneur and software developer working in Bangladesh to fight COVID-19.** <br/> <br/> Thanks for dropping by!",
+    "<br/> I'm a **data scientist**, **entrepreneur** and **software developer** working in Bangladesh to fight COVID-19. <br/> <br/> Thanks for dropping by!",
   currentWork: {
     title: "Current Work",
     works: [
@@ -19,7 +19,7 @@ export const work = {
         link: "https://reach4help.org/",
         image: "",
         description:
-          "Since co-founding it in March 2020, I lead the **tech nonprofit Reach4Help**, **connecting people in need with local volunteer help**. We're working with **volunteer organizations worldwide** from the US, Canada, Europe and Asia, amassing over **500 volunteers from 30 countries.** Recently, to support the Indian people against the devastation caused by the **recent surge** of cases there, we've been working alongside teams in the field to put up **critical COVID-19 resources** (hospital beds, oxygen cylinders, medicine, etc.) on our **[global map of aid](https://map.reach4help.org/)** across India!",
+          "Since co-founding it in March 2020, I lead the **tech nonprofit Reach4Help**, **connecting people in need with local volunteer help**. Amassing over **500 volunteers from 38 countries**, we're digitally enabling **volunteer organizations worldwide** from Montréal, New York, Dhaka, Lisbon, New Delhi and more to make volunteer help accessible during times of crisis. Today, our **[global map of aid](https://map.reach4help.org/)** is a **crisis resource aggregation platform** for **over 10 thousand charitable organizations**, nonprofits and service providers worldwide. Through our comprehensive pipeline for collecting, verifying, updating and mapping out resources in real-time, we're providing **access to critical resources for thousands of people in need everyday**. For our efforts, we were honored to receive a **grant of $120,000** for the year from the **Google for Nonprofits** program for software, outreach, maintenance and hosting.",
       },
       {
         title: "[Migrant Nation](https://migrantnation.org/)",

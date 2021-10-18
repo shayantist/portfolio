@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SocialsWrapper = styled.div`
-  margin-top: 1em;
+  margin-top: 2em;
   color: #fff;
   display: flex;
   align-items: center;
@@ -13,20 +13,20 @@ export const SocialsWrapper = styled.div`
   }
 
   a {
-    color: inherit;
+    color: white !important;
     opacity: 0.85;
     padding: 0 9px;
-    box-shadow: none;
+    box-shadow: none !important;
 
     transition: opacity 0.25s ease, color 0.25s ease;
 
     svg {
-      width: 30px;
+      width: 35px;
     }
 
     :hover {
       opacity: 1;
-      color: ${(props) => props.theme.colors.accent};
+      color: ${(props) => props.theme.colors.accent} !important;
       text-shadow: 0px 4px 10px rgba(31, 0, 41, 0.15);
       box-shadow: none;
     }

@@ -18,7 +18,7 @@ function Socials() {
             target="__blank"
             rel="noopener noreferrer"
           >
-            <LogoIcon size={28} />
+            <LogoIcon size={30} />
           </a>
         );
       })}

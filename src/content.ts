@@ -36,7 +36,7 @@ export const work = {
 export const research = {
   title: "My research story",
   description:
-    "Growing up immersed in health issues, from taking care of my cancer-stricken grandmother at 8 to being bedridden from COVID myself at 17, I've grown a **passion for solving health problems through medical research**. For the last four years, I’ve been fortunate to be part of **cutting-edge medical and data science research** through internships at the [New York Genome Center](https://www.nygenome.org/), [Google](https://research.google/outreach/csrmp/) and Nobel laureate [Joachim Frank's lab](https://franklab.cpmc.columbia.edu/franklab/) at Columbia University. Now, I'm conducting and coordinating data science and epidemiological research on COVID-19 in Bangladesh and recently co-authored a paper.",
+    "Growing up immersed in health issues, from taking care of my cancer-stricken grandmother at 8 to being bedridden from COVID myself at 17, I've grown a **passion for solving health problems through medical research**. For the last four years, I’ve been fortunate to be part of **cutting-edge medical and data science research** through internships at the [New York Genome Center](https://www.nygenome.org/), [Google](https://research.google/outreach/csrmp/) and [Nobel laureate Joachim Frank's lab](https://franklab.cpmc.columbia.edu/franklab/) at Columbia University. Now, I'm analyzing COVID-19 data on cases, hospitalizations, deaths and mobility trends across Bangladesh and have co-authored several research papers on my work.",
   papersSection: {
     title: "Papers",
     description:
@@ -44,12 +44,35 @@ export const research = {
     papers: [
       {
         title:
-          "[Participatory syndromic surveillance as a tool for tracking COVID-19 in Bangladesh](https://www.sciencedirect.com/science/article/pii/S1755436521000219)",
+          "[Participatory syndromic surveillance as a tool for tracking COVID-19 in Bangladesh](https://doi.org/10.1016/j.epidem.2021.100462)",
         subtitle: "April 2021",
         authors:
-          " **Authors:** Ayesha S Mahmud, *Shayan Chowdhury*, Kawsar Hossain Sojib, Anir Chowdhury, Md. Tanvir Quader, Sangita Paul, Md. Sheikh Saidy, Ramiz Uddin, Kenth Engo-Monsen, Caroline O Buckee",
-        institutions:
-          " **Institutions:** a2i Programme / Bangladesh Ministry of Health",
+          " Mahmud, A. S., **Chowdhury, S.**, Sojib, K. H., Chowdhury, A., Quader, M. T., Paul, S., Saidy, M. S., Uddin, R., Engø-Monsen, K., &amp; Buckee, C. O. (2021). <br/> **Epidemics, 35, 100462.**",
+        institutions: "",
+      },
+      {
+        title:
+          "[Surging COVID-19 in Bangladesh driven by B.1.351 variant](https://doi.org/10.1101/2021.04.27.21255706)",
+        subtitle: "April 2021",
+        authors:
+          " Brum, E., Saha, S., Sania, A., Tanmoy, A. M., Hooda, Y., Tanni, A. A., Goswami, S., Al Sium, S. M., Islam Sajib, M. S., Malaker, R., Islam, S., Sarker, N., Saha, S. K., **Chowdhury, S.**, Haddou, Y., Ferguson, E., Kundegorski, M., Purno, N., Tasneem, M., … Hampson, K. (2021). <br/> Submitted to **Lancet Global Health**.",
+        institutions: "",
+      },
+      {
+        title:
+          "[Combining Rapid Antigen Testing and Syndromic Surveillance Improves Sensitivity and Specificity of COVID-19 Detection: A Community-Based Prospective Diagnostic Study](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3927057)",
+        subtitle: "September 2021",
+        authors:
+          " Chadwick, F., Clark, J., **Chowdhury, S.**, Chowdhury, T., Pascall, D. J., Haddou, Y., Andrecka, J., Kundegorski, M., Wilkie, C., Brum, E., Shirin, T., Alamgir, A. S., Rahman, M., Alam, A. N., Khan, F., Swallow, B., Mair, F. S., Illian, J., Hill, D. L., … Sania, A. (2021). SSRN Electronic Journal. <br/> Submitted to **Lancet Global Health**. ",
+        institutions: "",
+      },
+      {
+        title:
+          "[Modelling to inform the COVID-19 response in Bangladesh](https://doi.org/10.1101/2021.04.19.21255673)",
+        subtitle: "April 2021",
+        authors:
+          " Ferguson, E. A., Brum, E., Chowdhury, A., **Chowdhury, S.**, Kundegorski, M., Mahmud, A. S., Purno, N., Sania, A., Steenson, R., Tasneem, M., &amp; Hampson, K. (2021). <br/> Submitted to **Lancet Global Health**.",
+        institutions: "",
       },
       {
         title:
@@ -57,16 +80,7 @@ export const research = {
         subtitle: "November 2018",
         authors: " **Author:** *Shayan Chowdhury*",
         institutions:
-          " **Institutions:** Landau Lab, New York Genome Center / Weill Cornell Medical Center *(submitted for Regeneron STS)*",
-      },
-      {
-        title:
-          "[Single-Cell Methylome and Transcriptome High-Resolution Maps Define the Effects of Epigenetic Modifiers on the Landscape of Hematopoietic Differentiation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5333260/)",
-        subtitle: "January 2017",
-        authors:
-          " **Authors:** Austin M. Coe, MPH, William Ueng, MPH, Jennifer M. Vargas, BS, Raven David, MPH, Alejandro Vanegas, MS, Katherine Infante, MPH, Meghna Trivedi, MD, Haeseung Yi, MPA, Jill Dimond, PhD, Katherine D. Crew, MD, MS, and Rita Kukafka, DrPH, MA <br/> ***(CONTRIBUTOR, NOT AN AUTHOR)***",
-        institutions:
-          " **Institution:** Crew Lab, Herbert Irving Comprehensive Cancer Center, Columbia University, College of Physicians and Surgeons ",
+          " **Institutions:** Landau Lab, New York Genome Center / Weill Cornell Medical Center. <br/> Submitted to **Regeneron STS**.",
       },
     ],
   },

@@ -4,7 +4,7 @@ export const CardWrapper = styled.div`
   background: ${(props) => props.theme.colors.cardBackground};
   width: 100%;
   border-radius: 20px;
-  padding: 3em;
+  padding: 2em;
 
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
     0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),

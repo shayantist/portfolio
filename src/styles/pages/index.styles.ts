@@ -4,11 +4,11 @@ import { Card, CardWrapper, SectionContainer } from "../../components";
 
 export const HeroSection = styled(SectionContainer)`
   display: flex;
-  gap: 3em;
+  gap: 2em;
   align-items: center;
   justify-content: center;
 
-  padding-top: ${(props) => props.theme.measurements.headerHeight + 40}px;
+  padding-top: ${(props) => props.theme.measurements.headerHeight + 20}px;
 
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {
@@ -42,7 +42,7 @@ export const HeroFunWrapper = styled(CardWrapper)`
 `;
 
 export const WorksSection = styled(SectionContainer)`
-  margin: 7em auto 0;
+  margin: 4em auto 0;
   display: grid;
   gap: 2em;
 

@@ -9,7 +9,7 @@ import {
   WorkCard,
 } from "../styles/pages/index.styles";
 
-import { Page } from "../components";
+import { Page, Socials } from "../components";
 import { work as workContent } from "../content";
 import parseMarkdown from "../utils/parseMarkdown";
 
@@ -27,10 +27,11 @@ function HomePage() {
               __html: parseMarkdown(workContent.description),
             }}
           ></h3>
+          <Socials />
         </HeroTextWrapper>
         <HeroFunWrapper>
           <Image
-            src="/assets/thonk.gif"
+            src="/assets/me.jpg"
             alt="look at this dude"
             width={500}
             height={500}
@@ -38,6 +39,7 @@ function HomePage() {
           />
         </HeroFunWrapper>
       </HeroSection>
+
       <WorksSection>
         <h2>{workContent.currentWork.title}</h2>
         {/* Loop through every card in content file */}

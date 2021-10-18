@@ -19,7 +19,7 @@ function AboutPage() {
         <title>Shayan Chowdhury | About</title>
       </Head>
       <HeroSection>
-        <HeroFunWrapper>
+        {/* <HeroFunWrapper>
           <Image
             src="/assets/me.jpg"
             alt="look at this dude"
@@ -27,7 +27,7 @@ function AboutPage() {
             height={500}
             quality={100}
           />
-        </HeroFunWrapper>
+        </HeroFunWrapper> */}
         <HeroTextWrapper>
           <h1>{content.title}</h1>
           <p

@@ -34,6 +34,7 @@ function ResearchPage() {
         ></p>
         {content.papersSection.papers.map((paper) => (
           <ResearchCard
+            key={paper.title}
             title={paper.title}
             subtitle={paper.subtitle}
             textBoxes={[paper.authors, paper.institutions]}

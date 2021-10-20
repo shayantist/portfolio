@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 import { CardWrapper } from "./Card.styles";
 import parseMarkdown from "../../utils/parseMarkdown";
@@ -26,7 +27,10 @@ function Card(props: Props) {
           __html: parseMarkdown(props.title),
         }}
       ></h3>
-      {props.image ? <img src={props.image} alt="" /> : null}
+
+      {props.image ? (
+        <Image src={props.image} alt="" width={50} height={50} quality={100} />
+      ) : null}
       {props.textBoxes.map((textBox) => (
         <p
           key={textBox}

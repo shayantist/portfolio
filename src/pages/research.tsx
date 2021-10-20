@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import {
   HeroSection,
+  HeroTextWrapper,
   ResearchSection,
   ResearchCard,
 } from "../styles/pages/research.styles";
@@ -17,12 +18,14 @@ function ResearchPage() {
         <title>Shayan Chowdhury | Research</title>
       </Head>
       <HeroSection>
-        <h1>{content.title}</h1>
-        <p
-          dangerouslySetInnerHTML={{
-            __html: parseMarkdown(content.description),
-          }}
-        ></p>
+        <HeroTextWrapper>
+          <h1>{content.title}</h1>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: parseMarkdown(content.description),
+            }}
+          ></p>
+        </HeroTextWrapper>
       </HeroSection>
 
       <ResearchSection>

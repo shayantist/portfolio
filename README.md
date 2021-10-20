@@ -13,3 +13,4 @@ To-Do:
 - Convert `content.ts` to `content.json` to make more flexible
 - Map `\n` to `<br/>` to [parseMarkdown.ts](src/utils/parseMarkdown.ts) instead of having random HTML in content
 - Add sitemap for `robots.txt`
+- Replace [`react-particles-js`](https://www.npmjs.com/package/react-particles-js) implementation of [pretty particle show](src/components/Particles) with [GSAP](https://codepen.io/celli/pen/xZgpvN) (more performant + looks even prettier!)

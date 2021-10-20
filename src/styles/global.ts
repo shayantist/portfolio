@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: ${(props) => props.theme.fonts.main}, sans-serif;
+    z-index: 1;
   }
 
   body, html {
@@ -19,5 +20,12 @@ export const GlobalStyle = createGlobalStyle`
   select,
   a {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+
+  #tsparticles {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
   }
 `;

@@ -6,6 +6,7 @@ import { ThemeProvider } from "styled-components";
 import { AnimatePresence } from "framer-motion";
 import { GlobalStyle } from "../styles/global";
 import { darkTheme } from "../styles/themes";
+import { Particles } from "../components";
 
 // Components
 import { Header, Footer } from "../components";
@@ -22,6 +23,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <GlobalStyle />
       <Header />
 
+      <Particles />
       <AnimatePresence exitBeforeEnter>
         <Component {...pageProps} />
       </AnimatePresence>

@@ -78,9 +78,9 @@ export const research = {
         title:
           "[Characterizing Noise in Whole Genome Cell-Free DNA Analysis](docs/Characterizing%20Noise%20in%20Whole%20Genome%20Cell-Free%20DNA%20Analysis%20-%20Research%20Paper.pdf)",
         subtitle: "November 2018",
-        authors: " **Author:** *Shayan Chowdhury*",
+        authors: " **Chowdhury, S.**, Schulman, R.",
         institutions:
-          " **Institutions:** Landau Lab, New York Genome Center / Weill Cornell Medical Center. <br/> Submitted to **Regeneron STS**.",
+          " Landau Lab, New York Genome Center / Weill Cornell Medical Center. Submitted to **Regeneron STS**.",
       },
     ],
   },

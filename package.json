@@ -9,9 +9,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:fix": "eslint ./src --fix && prettier --write \"./src/**/*.{ts,tsx}\"",
     "export": "next export",
-    "start-api": "cd api && venv/Scripts/flask run --no-debugger",
-    "lint:fix": "eslint ./src --fix && prettier --write \"./src/**/*.{ts,tsx}\""
+    "start-api": "cd api && venv/Scripts/flask run --no-debugger"
   },
   "dependencies": {
     "framer-motion": "^2.9.5",

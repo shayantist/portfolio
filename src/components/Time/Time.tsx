@@ -4,7 +4,7 @@ function Time() {
   const [currentTime, setCurrentTime] = useState();
 
   useEffect(() => {
-    fetch("/time")
+    fetch("/api/time")
       .then((res) => res.json())
       .then((data) => {
         setCurrentTime(data.time);

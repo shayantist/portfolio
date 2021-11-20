@@ -1,16 +1,16 @@
 import React from "react";
 import Head from "next/head";
-import Image from "next/image";
+// import Image from "next/image";
 import {
   HeroSection,
   HeroTextWrapper,
-  HeroFunWrapper,
+  // HeroFunWrapper,
   WorksSection,
-  WorkCard,
+  // WorkCard,
 } from "../styles/pages/index.styles";
 
 import { Page, Time } from "../components";
-import parseMarkdown from "../utils/parseMarkdown";
+// import parseMarkdown from "../utils/parseMarkdown";
 
 function PlayPage() {
   return (

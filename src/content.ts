@@ -1,7 +1,7 @@
 export const work = {
   title: "Hi, I'm Shayan",
   description:
-    "<br/> I'm a **data scientist**, **entrepreneur** and **software developer** working in Bangladesh to fight COVID-19. <br/> <br/> Thanks for dropping by!",
+    "I'm a **data scientist**, **entrepreneur** and **software developer** working in Bangladesh to fight COVID-19.  \nThanks for dropping by!",
   currentWork: {
     title: "Current Work",
     works: [
@@ -47,7 +47,7 @@ export const research = {
           "[Participatory syndromic surveillance as a tool for tracking COVID-19 in Bangladesh](https://doi.org/10.1016/j.epidem.2021.100462)",
         subtitle: "April 2021",
         authors:
-          " Mahmud, A. S., **Chowdhury, S.**, Sojib, K. H., Chowdhury, A., Quader, M. T., Paul, S., Saidy, M. S., Uddin, R., Engø-Monsen, K., &amp; Buckee, C. O. (2021). <br/> **Epidemics, 35, 100462.**",
+          " Mahmud, A. S., **Chowdhury, S.**, Sojib, K. H., Chowdhury, A., Quader, M. T., Paul, S., Saidy, M. S., Uddin, R., Engø-Monsen, K., &amp; Buckee, C. O. (2021).  \n**Epidemics, 35, 100462.**",
         institutions: "",
       },
       {
@@ -55,7 +55,7 @@ export const research = {
           "[Surging COVID-19 in Bangladesh driven by B.1.351 variant](https://doi.org/10.1101/2021.04.27.21255706)",
         subtitle: "April 2021",
         authors:
-          " Brum, E., Saha, S., Sania, A., Tanmoy, A. M., Hooda, Y., Tanni, A. A., Goswami, S., Al Sium, S. M., Islam Sajib, M. S., Malaker, R., Islam, S., Sarker, N., Saha, S. K., **Chowdhury, S.**, Haddou, Y., Ferguson, E., Kundegorski, M., Purno, N., Tasneem, M., … Hampson, K. (2021). <br/> Submitted to **Lancet Global Health**.",
+          " Brum, E., Saha, S., Sania, A., Tanmoy, A. M., Hooda, Y., Tanni, A. A., Goswami, S., Al Sium, S. M., Islam Sajib, M. S., Malaker, R., Islam, S., Sarker, N., Saha, S. K., **Chowdhury, S.**, Haddou, Y., Ferguson, E., Kundegorski, M., Purno, N., Tasneem, M., … Hampson, K. (2021).  \nSubmitted to **Lancet Global Health**.",
         institutions: "",
       },
       {
@@ -63,7 +63,7 @@ export const research = {
           "[Combining Rapid Antigen Testing and Syndromic Surveillance Improves Sensitivity and Specificity of COVID-19 Detection: A Community-Based Prospective Diagnostic Study](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3927057)",
         subtitle: "September 2021",
         authors:
-          " Chadwick, F., Clark, J., **Chowdhury, S.**, Chowdhury, T., Pascall, D. J., Haddou, Y., Andrecka, J., Kundegorski, M., Wilkie, C., Brum, E., Shirin, T., Alamgir, A. S., Rahman, M., Alam, A. N., Khan, F., Swallow, B., Mair, F. S., Illian, J., Hill, D. L., … Sania, A. (2021). SSRN Electronic Journal. <br/> Submitted to **Lancet Global Health**. ",
+          " Chadwick, F., Clark, J., **Chowdhury, S.**, Chowdhury, T., Pascall, D. J., Haddou, Y., Andrecka, J., Kundegorski, M., Wilkie, C., Brum, E., Shirin, T., Alamgir, A. S., Rahman, M., Alam, A. N., Khan, F., Swallow, B., Mair, F. S., Illian, J., Hill, D. L., … Sania, A. (2021). SSRN Electronic Journal.  \nSubmitted to **Lancet Global Health**. ",
         institutions: "",
       },
       {
@@ -71,7 +71,7 @@ export const research = {
           "[Modelling to inform the COVID-19 response in Bangladesh](https://doi.org/10.1101/2021.04.19.21255673)",
         subtitle: "April 2021",
         authors:
-          " Ferguson, E. A., Brum, E., Chowdhury, A., **Chowdhury, S.**, Kundegorski, M., Mahmud, A. S., Purno, N., Sania, A., Steenson, R., Tasneem, M., &amp; Hampson, K. (2021). <br/> Submitted to **Lancet Global Health**.",
+          " Ferguson, E. A., Brum, E., Chowdhury, A., **Chowdhury, S.**, Kundegorski, M., Mahmud, A. S., Purno, N., Sania, A., Steenson, R., Tasneem, M., &amp; Hampson, K. (2021).  \nSubmitted to **Lancet Global Health**.",
         institutions: "",
       },
       {
@@ -89,7 +89,7 @@ export const research = {
 export const about = {
   title: "A bit about myself",
   description:
-    "I'm a recent graduate of Stuyvesant High School in NYC, currently taking a gap year working in Bangladesh. The last year's been tough for everyone, so I wanted to channel my love for technology and [research](/research) to make a positive impact in the lives of people suffering from the disasters that defined 2020. Outside of work, I love playing guitar, [browsing Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/hp9wwp/biggest_lie/) and sleeping. <br/> [For those interested, here's my resume.](docs/Shayan%20Chowdhury%20-%20Resume.pdf)",
+    "I'm a recent graduate of Stuyvesant High School in NYC, currently taking a gap year working in Bangladesh. The last year's been tough for everyone, so I wanted to channel my love for technology and [research](/research) to make a positive impact in the lives of people suffering from the disasters that defined 2020. Outside of work, I love playing guitar, [browsing Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/hp9wwp/biggest_lie/) and sleeping.  \n[For those interested, here's my resume.](docs/Shayan%20Chowdhury%20-%20Resume.pdf)",
   contact_section: {
     title: " **Feel free to reach out!**",
     description:

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import { CardWrapper } from "./Card.styles";
-import parseMarkdown from "../../utils/parseMarkdown";
+import ReactMarkdown from "react-markdown";
 
 interface Props {
   title: string;
@@ -16,28 +16,21 @@ function Card(props: Props) {
   return (
     <CardWrapper>
       {props.subtitle ? (
-        <span
-          dangerouslySetInnerHTML={{
-            __html: parseMarkdown(props.subtitle),
-          }}
-        ></span>
+        <span>
+          <ReactMarkdown>{props.subtitle}</ReactMarkdown>
+        </span>
       ) : null}
-      <h3
-        dangerouslySetInnerHTML={{
-          __html: parseMarkdown(props.title),
-        }}
-      ></h3>
+      <h3>
+        <ReactMarkdown>{props.title}</ReactMarkdown>
+      </h3>
 
       {props.image ? (
         <Image src={props.image} alt="" width={50} height={50} quality={100} />
       ) : null}
       {props.textBoxes.map((textBox) => (
-        <p
-          key={textBox}
-          dangerouslySetInnerHTML={{
-            __html: parseMarkdown(textBox),
-          }}
-        ></p>
+        <p key={textBox}>
+          <ReactMarkdown>{textBox}</ReactMarkdown>
+        </p>
       ))}
     </CardWrapper>
   );

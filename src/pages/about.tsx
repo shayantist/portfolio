@@ -10,7 +10,7 @@ import {
 
 import { Page } from "../components";
 import { about as content } from "../content";
-import parseMarkdown from "../utils/parseMarkdown";
+import ReactMarkdown from "react-markdown";
 
 function AboutPage() {
   return (
@@ -30,24 +30,18 @@ function AboutPage() {
         </HeroFunWrapper> */}
         <HeroTextWrapper>
           <h1>{content.title}</h1>
-          <p
-            dangerouslySetInnerHTML={{
-              __html: parseMarkdown(content.description),
-            }}
-          />
+          <p>
+            <ReactMarkdown>{content.description}</ReactMarkdown>
+          </p>
         </HeroTextWrapper>
       </HeroSection>
       <ContactSection>
-        <h3
-          dangerouslySetInnerHTML={{
-            __html: parseMarkdown(content.contact_section.title),
-          }}
-        />
-        <p
-          dangerouslySetInnerHTML={{
-            __html: parseMarkdown(content.contact_section.description),
-          }}
-        />
+        <h3>
+          <ReactMarkdown>{content.contact_section.title}</ReactMarkdown>
+        </h3>
+        <p>
+          <ReactMarkdown>{content.contact_section.description}</ReactMarkdown>
+        </p>
       </ContactSection>
     </Page>
   );

@@ -9,7 +9,7 @@ import {
 
 import { Page } from "../components";
 import { research as content } from "../content";
-import parseMarkdown from "../utils/parseMarkdown";
+import ReactMarkdown from "react-markdown";
 
 function ResearchPage() {
   return (
@@ -20,21 +20,17 @@ function ResearchPage() {
       <HeroSection>
         <HeroTextWrapper>
           <h1>{content.title}</h1>
-          <p
-            dangerouslySetInnerHTML={{
-              __html: parseMarkdown(content.description),
-            }}
-          ></p>
+          <p>
+            <ReactMarkdown>{content.description}</ReactMarkdown>
+          </p>
         </HeroTextWrapper>
       </HeroSection>
 
       <ResearchSection>
         <h2>{content.papersSection.title}</h2>
-        <p
-          dangerouslySetInnerHTML={{
-            __html: parseMarkdown(content.papersSection.description),
-          }}
-        ></p>
+        <p>
+          <ReactMarkdown>{content.papersSection.description}</ReactMarkdown>
+        </p>
         {content.papersSection.papers.map((paper) => (
           <ResearchCard
             key={paper.title}

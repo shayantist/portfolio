@@ -11,7 +11,7 @@ import {
 
 import { Page, Socials } from "../components";
 import { work as workContent } from "../content";
-import parseMarkdown from "../utils/parseMarkdown";
+import ReactMarkdown from "react-markdown";
 
 function HomePage() {
   return (
@@ -22,11 +22,9 @@ function HomePage() {
       <HeroSection>
         <HeroTextWrapper>
           <h1>{workContent.title}</h1>
-          <h3
-            dangerouslySetInnerHTML={{
-              __html: parseMarkdown(workContent.description),
-            }}
-          ></h3>
+          <h3>
+            <ReactMarkdown>{workContent.description}</ReactMarkdown>
+          </h3>
           <Socials />
         </HeroTextWrapper>
         <HeroFunWrapper>

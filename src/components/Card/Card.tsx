@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import { CardWrapper } from "./Card.styles";
-import ReactMarkdown from "react-markdown";
+import Markdown from "../Markdown";
 
 interface Props {
   title: string;
@@ -17,11 +17,11 @@ function Card(props: Props) {
     <CardWrapper>
       {props.subtitle ? (
         <span>
-          <ReactMarkdown>{props.subtitle}</ReactMarkdown>
+          <Markdown>{props.subtitle}</Markdown>
         </span>
       ) : null}
       <h3>
-        <ReactMarkdown>{props.title}</ReactMarkdown>
+        <Markdown>{props.title}</Markdown>
       </h3>
 
       {props.image ? (
@@ -29,7 +29,7 @@ function Card(props: Props) {
       ) : null}
       {props.textBoxes.map((textBox) => (
         <p key={textBox}>
-          <ReactMarkdown>{textBox}</ReactMarkdown>
+          <Markdown>{textBox}</Markdown>
         </p>
       ))}
     </CardWrapper>

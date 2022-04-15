@@ -9,9 +9,8 @@ import {
   WorkCard,
 } from "../styles/pages/index.styles";
 
-import { Page, Socials } from "../components";
+import { Page, Socials, Markdown } from "../components";
 import { work as workContent } from "../content";
-import ReactMarkdown from "react-markdown";
 
 function HomePage() {
   return (
@@ -23,7 +22,7 @@ function HomePage() {
         <HeroTextWrapper>
           <h1>{workContent.title}</h1>
           <h3>
-            <ReactMarkdown>{workContent.description}</ReactMarkdown>
+            <Markdown>{workContent.description}</Markdown>
           </h3>
           <Socials />
         </HeroTextWrapper>
@@ -46,7 +45,7 @@ function HomePage() {
             <WorkCard
               key={workExp.title}
               title={workExp.title}
-              subtitle={workExp.subtitle}
+              subtitle={`**${workExp.subtitle}**`}
               image={workExp.image}
               textBoxes={[workExp.description]}
             />

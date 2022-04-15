@@ -7,9 +7,8 @@ import {
   ResearchCard,
 } from "../styles/pages/research.styles";
 
-import { Page } from "../components";
+import { Page, Markdown } from "../components";
 import { research as content } from "../content";
-import ReactMarkdown from "react-markdown";
 
 function ResearchPage() {
   return (
@@ -21,7 +20,7 @@ function ResearchPage() {
         <HeroTextWrapper>
           <h1>{content.title}</h1>
           <p>
-            <ReactMarkdown>{content.description}</ReactMarkdown>
+            <Markdown>{content.description}</Markdown>
           </p>
         </HeroTextWrapper>
       </HeroSection>
@@ -29,7 +28,7 @@ function ResearchPage() {
       <ResearchSection>
         <h2>{content.papersSection.title}</h2>
         <p>
-          <ReactMarkdown>{content.papersSection.description}</ReactMarkdown>
+          <Markdown>{content.papersSection.description}</Markdown>
         </p>
         {content.papersSection.papers.map((paper) => (
           <ResearchCard

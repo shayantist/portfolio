@@ -10,7 +10,7 @@ import {
 
 import { Page } from "../components";
 import { about as content } from "../content";
-import ReactMarkdown from "react-markdown";
+import { Markdown } from "../components";
 
 function AboutPage() {
   return (
@@ -31,16 +31,16 @@ function AboutPage() {
         <HeroTextWrapper>
           <h1>{content.title}</h1>
           <p>
-            <ReactMarkdown>{content.description}</ReactMarkdown>
+            <Markdown>{content.description}</Markdown>
           </p>
         </HeroTextWrapper>
       </HeroSection>
       <ContactSection>
         <h3>
-          <ReactMarkdown>{content.contact_section.title}</ReactMarkdown>
+          <Markdown>{content.contact_section.title}</Markdown>
         </h3>
         <p>
-          <ReactMarkdown>{content.contact_section.description}</ReactMarkdown>
+          <Markdown>{content.contact_section.description}</Markdown>
         </p>
       </ContactSection>
     </Page>

@@ -10,7 +10,7 @@ import {
 } from "../styles/pages/index.styles";
 
 import { Page, Socials, Markdown } from "../components";
-import { work as workContent } from "../content";
+import { work as content } from "../content";
 
 function HomePage() {
   return (
@@ -20,9 +20,11 @@ function HomePage() {
       </Head>
       <HeroSection>
         <HeroTextWrapper>
-          <h1>{workContent.title}</h1>
+          <h1>{content.title}</h1>
           <h3>
-            <Markdown>{workContent.description}</Markdown>
+            <Markdown>{content.description}</Markdown>
+            <p style={{ marginTop: "10px" }} />
+            <Markdown>{content.subtitle}</Markdown>
           </h3>
           <Socials />
         </HeroTextWrapper>
@@ -38,10 +40,10 @@ function HomePage() {
       </HeroSection>
 
       <WorksSection>
-        <h2>{workContent.currentWork.title}</h2>
+        <h2>{content.currentWork.title}</h2>
         {/* Loop through every card in content file */}
         <div className="things">
-          {workContent.currentWork.works.map((workExp) => (
+          {content.currentWork.works.map((workExp) => (
             <WorkCard
               key={workExp.title}
               title={workExp.title}

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "@emotion/styled";
 
 import { CardWrapper, SectionContainer } from "../../components";
 import { HeroSection as IndexHeroSection } from "./index.styles";

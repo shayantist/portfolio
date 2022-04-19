@@ -1,7 +1,8 @@
 export const work = {
   title: "Hi, I'm Shayan",
   description:
-    "I'm a **data scientist**, **entrepreneur** and **software developer** working in Bangladesh to fight COVID-19.  \nThanks for dropping by!",
+    "I'm a **data scientist**, **entrepreneur** and **software developer** working in Bangladesh to fight COVID-19.",
+  subtitle: "Thanks for dropping by!",
   currentWork: {
     title: "Current Work",
     works: [

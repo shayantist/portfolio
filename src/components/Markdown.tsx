@@ -1,7 +1,7 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 
-function Markdown({ children }: any) {
+function Markdown({ children }: { children: string }) {
   return (
     <ReactMarkdown
       components={{

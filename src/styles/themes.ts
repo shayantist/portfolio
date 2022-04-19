@@ -1,6 +1,6 @@
-import { DefaultTheme } from "styled-components";
+import { Theme } from "@emotion/react";
 
-export const darkTheme: DefaultTheme = {
+export const darkTheme: Theme = {
   colors: {
     background: "#121212",
     text: "#FFFFFF",

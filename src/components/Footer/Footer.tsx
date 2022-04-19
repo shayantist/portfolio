@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled from "@emotion/styled";
 
 export const FooterContainer = styled.footer`
   height: 40px;

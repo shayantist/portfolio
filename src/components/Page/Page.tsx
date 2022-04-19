@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-function Page(props: { children: any }) {
+function Page(props: { children: React.ReactNode }) {
   return (
     <motion.div
       initial={{ opacity: 0 }}

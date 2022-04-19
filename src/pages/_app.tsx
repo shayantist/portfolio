@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import type { AppProps } from "next/app";
 
 // Styling
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider } from "@emotion/react";
 import { AnimatePresence } from "framer-motion";
-import { GlobalStyle } from "../styles/global";
+import GlobalStyles from "../styles/global";
 import { darkTheme } from "../styles/themes";
 import { Particles } from "../components";
 
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <ThemeProvider theme={theme === "light" ? darkTheme : darkTheme}>
-      <GlobalStyle />
+      <GlobalStyles />
       <Header />
 
       <Particles />

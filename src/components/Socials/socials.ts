@@ -26,7 +26,7 @@ const socials = [
   {
     name: "Email",
     logo: FaRegEnvelope,
-    link: "mailto:shayan@reach4help.org",
+    link: "mailto:sc4040@columbia.edu",
   },
   // {
   //   name: "Facebook", // {t(lang, s => s.social.facebook)}

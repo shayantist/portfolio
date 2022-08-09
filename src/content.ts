@@ -1,7 +1,7 @@
 export const work = {
   title: "Hi, I'm Shayan",
   description:
-    "I'm a **student and [researcher](/research)** at Columbia University and **social entrepreneur** at my nonprofit [**Reach4Help**](https://reach4help.org/)!",
+    "I'm a **student and researcher** at Columbia University and **social entrepreneur** at my nonprofit [**Reach4Help**](https://reach4help.org/)!",
   subtitle: "Thanks for dropping by!",
   subtitle2:
     "For those interested, [**here's my resume.**](docs/Shayan%20Chowdhury%20-%20Resume.pdf)",

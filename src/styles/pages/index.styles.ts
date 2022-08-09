@@ -26,7 +26,16 @@ export const HeroTextWrapper = styled.div`
   flex: 5;
 `;
 
-export const HeroFunWrapper = styled(CardWrapper)`
+export const HeroFunWrapper = styled.div`
+  background: ${(props) => props.theme.colors.cardBackground};
+  width: 100%;
+  border-radius: 20px;
+  padding: 2em;
+
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+
   flex: 3;
   display: flex;
   align-items: center;
@@ -40,12 +49,13 @@ export const HeroFunWrapper = styled(CardWrapper)`
     height: 100%;
     width: 100%;
     border-radius: 20px;
-    filter: grayscale(100%);
+    filter: grayscale(50%);
   }
 
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {
     max-width: 300px;
+    padding: 2em;
   }
 `;
 

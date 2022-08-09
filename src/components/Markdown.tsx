@@ -17,7 +17,6 @@ export default function Markdown({ children }: { children: string }) {
 }
 
 function RouterLink(props: any) {
-  console.log(props.children);
   return props.href.match(/^\//) ? (
     <Link href={props.href}>{props.children[0]}</Link>
   ) : (

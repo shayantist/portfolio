@@ -5,8 +5,8 @@ import {
   HeroSection,
   HeroTextWrapper,
   HeroFunWrapper,
-  WorksSection,
-  WorkCard,
+  // WorksSection,
+  // WorkCard,
 } from "../styles/pages/index.styles";
 
 import { Page, Socials, Markdown } from "../components";
@@ -16,7 +16,7 @@ function HomePage() {
   return (
     <Page>
       <Head>
-        <title>Shayan Chowdhury | Portfolio</title>
+        <title>Shayan Chowdhury</title>
       </Head>
       <HeroSection>
         <HeroTextWrapper>

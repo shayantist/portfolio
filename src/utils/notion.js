@@ -5,7 +5,7 @@ const notion = new Client({
   auth: process.env.NOTION_TOKEN,
 });
 
-export const getDatabase = async (databaseId, sortProperty = null) => {
+export const getDatabase = async (databaseId, sortProperty) => {
   const response = await notion.databases.query({
     database_id: databaseId,
     ...(sortProperty && {

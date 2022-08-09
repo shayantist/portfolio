@@ -59,7 +59,7 @@ import moment from "moment";
 import { GetBlockResponse } from "@notionhq/client/build/src/api-endpoints";
 export async function getStaticProps() {
   // Get Notion page and all its blocks (and children)
-  const page = await getPage(notion_page_url);
+  const page: any = await getPage(notion_page_url);
   const pageTitle = textToMarkdown(page.properties.title.title);
   const blocks = await getBlocks(notion_page_url);
 
@@ -69,7 +69,8 @@ export async function getStaticProps() {
 
   // Extract the inline DB and get all its entries
   const papersDBBlock = papersBlocks.pop();
-  const papersDB = papersDBBlock && (await getDatabase(papersDBBlock.id, "ID"));
+  const papersDB: any =
+    papersDBBlock && (await getDatabase(papersDBBlock.id, "ID"));
 
   // Iterate through all the DB entries and extract/transform key info
   let papers: Paper[] = [];
@@ -115,6 +116,6 @@ export async function getStaticProps() {
       papersBlocks: papersBlocks,
       papersDB: papers,
     },
-    revalidate: 1,
+    revalidate: 60,
   };
 }

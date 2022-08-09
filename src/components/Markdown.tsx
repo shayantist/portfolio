@@ -1,11 +1,14 @@
+import Link from "next/link";
 import React from "react";
 import ReactMarkdown from "react-markdown";
 
-function Markdown({ children }: { children: string }) {
+export default function Markdown({ children }: { children: string }) {
   return (
     <ReactMarkdown
       components={{
         p: React.Fragment,
+        a: RouterLink,
+        br: "span",
       }}
     >
       {children}
@@ -13,4 +16,13 @@ function Markdown({ children }: { children: string }) {
   );
 }
 
-export default Markdown;
+function RouterLink(props: any) {
+  console.log(props.children);
+  return props.href.match(/^\//) ? (
+    <Link href={props.href}>{props.children[0]}</Link>
+  ) : (
+    <a href={props.href} target="_blank" rel="noreferrer">
+      {props.children[0]}
+    </a>
+  );
+}

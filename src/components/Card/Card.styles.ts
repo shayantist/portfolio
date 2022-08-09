@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
+import Card from "./Card";
 
-export const CardWrapper = styled.div`
+export const CardWrapper = styled(Card)`
   background: ${(props) => props.theme.colors.cardBackground};
   width: 100%;
   border-radius: 20px;

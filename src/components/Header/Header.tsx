@@ -25,7 +25,7 @@ function Header() {
 
         <NavMenu isOpen={isOpen} onClick={handleIsOpen}>
           <NavItem>
-            <Link href="/">Work</Link>
+            <Link href="/">Home</Link>
           </NavItem>
           <NavItem>
             <Link href="/research">Research</Link>

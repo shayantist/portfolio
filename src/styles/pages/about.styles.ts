@@ -10,6 +10,12 @@ export const HeroTextWrapper = styled.div`
       props.theme.measurements.mobileBreakpoint}px) {
     margin: 0 auto 2em;
   }
+
+  span {
+    display: block;
+    width: 100%;
+    height: 12px;
+  }
 `;
 
 export const HeroFunWrapper = styled(CardWrapper)`

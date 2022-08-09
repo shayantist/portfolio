@@ -23,8 +23,12 @@ function HomePage() {
           <h1>{content.title}</h1>
           <h3>
             <Markdown>{content.description}</Markdown>
-            <p style={{ marginTop: "10px" }} />
+            <p style={{ marginTop: "15px" }} />
             <Markdown>{content.subtitle}</Markdown>
+            <p style={{ marginTop: "15px" }} />
+            <h5>
+              <Markdown>{content.subtitle2}</Markdown>
+            </h5>
           </h3>
           <Socials />
         </HeroTextWrapper>
@@ -39,9 +43,9 @@ function HomePage() {
         </HeroFunWrapper>
       </HeroSection>
 
-      <WorksSection>
+      {/* <WorksSection>
         <h2>{content.currentWork.title}</h2>
-        {/* Loop through every card in content file */}
+        Loop through every card in content file
         <div className="things">
           {content.currentWork.works.map((workExp) => (
             <WorkCard
@@ -53,7 +57,7 @@ function HomePage() {
             />
           ))}
         </div>
-      </WorksSection>
+      </WorksSection> */}
     </Page>
   );
 }

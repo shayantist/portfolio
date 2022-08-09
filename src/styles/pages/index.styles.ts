@@ -15,18 +15,26 @@ export const HeroSection = styled(SectionContainer)`
     padding-top: ${(props) => props.theme.measurements.headerHeight}px;
     flex-wrap: wrap;
     gap: 1em;
+
+    h5 {
+      margin-bottom: 15px;
+    }
   }
 `;
 
-export const HeroTextWrapper = styled.div``;
+export const HeroTextWrapper = styled.div`
+  flex: 5;
+`;
 
 export const HeroFunWrapper = styled(CardWrapper)`
+  flex: 3;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1em;
   min-height: 300px;
   min-width: 300px;
+  aspect-ratio: 1;
 
   img {
     height: 100%;

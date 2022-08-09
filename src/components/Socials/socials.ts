@@ -1,7 +1,7 @@
 import {
   // FaFacebookSquare,
   // FaTwitter,
-  // FaInstagram,
+  FaInstagram,
   FaLinkedin,
   FaGithub,
   FaRegEnvelope,
@@ -11,12 +11,17 @@ const socials = [
   {
     name: "LinkedIn",
     logo: FaLinkedin,
-    link: "https://www.linkedin.com/in/shayan-chowdhury-4052b624/",
+    link: "https://www.linkedin.com/in/shayanhchowdhury",
   },
   {
     name: "GitHub",
     logo: FaGithub,
     link: "https://github.com/schowdhury8",
+  },
+  {
+    name: "Instagram",
+    logo: FaInstagram,
+    link: "https://instagram.com/shayan.tist",
   },
   {
     name: "Email",
@@ -32,11 +37,6 @@ const socials = [
   //   name: "Twitter",
   //   logo: FaTwitter,
   //   link: "https://twitter.com/Reach4HelpOrg",
-  // },
-  // {
-  //   name: "Instagram",
-  //   logo: FaInstagram,
-  //   link: "https://instagram.com/reach4help",
   // },
 ];
 

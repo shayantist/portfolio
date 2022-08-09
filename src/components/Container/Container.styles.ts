@@ -40,9 +40,13 @@ export const SectionContainer = styled.section`
   }
 
   h3 {
-    font-size: clamp(1.5em, 8vw, 2rem);
+    font-size: clamp(1.5em, 8vw, 1.7rem);
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 1.3;
+  }
+
+  h5 {
+    font-weight: normal;
   }
 
   p {

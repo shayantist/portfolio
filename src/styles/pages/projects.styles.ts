@@ -8,10 +8,14 @@ export const HeroSection = styled(IndexHeroSection)``;
 
 export const HeroTextWrapper = styled(AboutHeroTextWrapper)``;
 
-export const ResearchCard = styled(Card)``;
-
-export const ResearchSection = styled(SectionContainer)`
-  display: grid;
+export const ProjectsSection = styled(SectionContainer)`
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 1em;
   margin: 2em auto 0;
+`;
+
+export const ProjectsCard = styled(Card)`
+  width: 45%;
 `;

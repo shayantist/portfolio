@@ -1,38 +1,43 @@
 import React from "react";
 import Image from "next/image";
 
-import { CardWrapper } from "./Card.styles";
 import Markdown from "../Markdown";
 
 interface Props {
-  title: string;
+  title?: string;
   subtitle?: string;
   image?: string;
-  textBoxes: string[];
+  textBoxes?: string[];
   backgroundColor?: string;
+  className?: string;
 }
 
-function Card(props: Props) {
+function Card({ className, ...props }: Props) {
   return (
-    <CardWrapper>
-      {props.subtitle ? (
+    <div className={className}>
+      {props.subtitle && (
         <span>
           <Markdown>{props.subtitle}</Markdown>
         </span>
-      ) : null}
-      <h3>
-        <Markdown>{props.title}</Markdown>
-      </h3>
+      )}
 
-      {props.image ? (
+      {props.title && (
+        <h3>
+          <Markdown>{props.title}</Markdown>
+        </h3>
+      )}
+
+      {props.image && (
         <Image src={props.image} alt="" width={50} height={50} quality={100} />
-      ) : null}
-      {props.textBoxes.map((textBox) => (
-        <p key={textBox}>
-          <Markdown>{textBox}</Markdown>
-        </p>
-      ))}
-    </CardWrapper>
+      )}
+
+      {props.textBoxes &&
+        props.textBoxes.map((textBox) => (
+          <p key={textBox}>
+            <Markdown>{textBox}</Markdown>
+          </p>
+        ))}
+    </div>
   );
 }
 

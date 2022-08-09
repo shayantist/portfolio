@@ -5,7 +5,7 @@ export const darkTheme: Theme = {
     background: "#121212",
     text: "#FFFFFF",
     cardBackground: "#191919",
-    accent: "#DC143C",
+    accent: "#e1143d",
   },
   measurements: {
     // in px

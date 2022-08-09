@@ -10,6 +10,9 @@ export default function GlobalStyles() {
           margin: 0;
           padding: 0;
           z-index: 1; /* Needed for tsparticles */
+          ::selection {
+            background: rgba(219, 45, 45, 0.5);
+          }
         }
 
         body,

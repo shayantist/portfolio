@@ -1,8 +1,10 @@
 export const work = {
   title: "Hi, I'm Shayan",
   description:
-    "I'm a **data scientist**, **entrepreneur** and **software developer** working in Bangladesh to fight COVID-19.",
+    "I'm a **student and [researcher](/research)** at Columbia University and **social entrepreneur** at my nonprofit [**Reach4Help**](https://reach4help.org/)!",
   subtitle: "Thanks for dropping by!",
+  subtitle2:
+    "For those interested, [**here's my resume.**](docs/Shayan%20Chowdhury%20-%20Resume.pdf)",
   currentWork: {
     title: "Current Work",
     works: [
@@ -34,66 +36,13 @@ export const work = {
   },
 };
 
-export const research = {
-  title: "My research story",
-  description:
-    "Growing up immersed in health issues, from taking care of my cancer-stricken grandmother at 8 to being bedridden from COVID myself at 17, I've grown a **passion for solving health problems through medical research**. For the last four years, I’ve been fortunate to be part of **cutting-edge medical and data science research** through internships at the [New York Genome Center](https://www.nygenome.org/), [Google](https://research.google/outreach/csrmp/) and [Nobel laureate Joachim Frank's lab](https://franklab.cpmc.columbia.edu/franklab/) at Columbia University. Now, I'm analyzing COVID-19 data on cases, hospitalizations, deaths and mobility trends across Bangladesh and have co-authored several research papers on my work.",
-  papersSection: {
-    title: "Papers",
-    description:
-      "In September 2020, I got the honor of **co-authoring my first formal publication to the journal Epidemics** alongside my colleagues and mentors from **UC Berkeley and Harvard**! In the past, I've also written for research competitions and contributed to multiple papers listed below.",
-    papers: [
-      {
-        title:
-          "[Participatory syndromic surveillance as a tool for tracking COVID-19 in Bangladesh](https://doi.org/10.1016/j.epidem.2021.100462)",
-        subtitle: "April 2021",
-        authors:
-          " Mahmud, A. S., **Chowdhury, S.**, Sojib, K. H., Chowdhury, A., Quader, M. T., Paul, S., Saidy, M. S., Uddin, R., Engø-Monsen, K., &amp; Buckee, C. O. (2021).  \n**Epidemics, 35, 100462.**",
-        institutions: "",
-      },
-      {
-        title:
-          "[Surging COVID-19 in Bangladesh driven by B.1.351 variant](https://doi.org/10.1101/2021.04.27.21255706)",
-        subtitle: "April 2021",
-        authors:
-          " Brum, E., Saha, S., Sania, A., Tanmoy, A. M., Hooda, Y., Tanni, A. A., Goswami, S., Al Sium, S. M., Islam Sajib, M. S., Malaker, R., Islam, S., Sarker, N., Saha, S. K., **Chowdhury, S.**, Haddou, Y., Ferguson, E., Kundegorski, M., Purno, N., Tasneem, M., … Hampson, K. (2021).  \nSubmitted to **Lancet Global Health**.",
-        institutions: "",
-      },
-      {
-        title:
-          "[Combining Rapid Antigen Testing and Syndromic Surveillance Improves Sensitivity and Specificity of COVID-19 Detection: A Community-Based Prospective Diagnostic Study](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3927057)",
-        subtitle: "September 2021",
-        authors:
-          " Chadwick, F., Clark, J., **Chowdhury, S.**, Chowdhury, T., Pascall, D. J., Haddou, Y., Andrecka, J., Kundegorski, M., Wilkie, C., Brum, E., Shirin, T., Alamgir, A. S., Rahman, M., Alam, A. N., Khan, F., Swallow, B., Mair, F. S., Illian, J., Hill, D. L., … Sania, A. (2021). SSRN Electronic Journal.  \nSubmitted to **Lancet Global Health**. ",
-        institutions: "",
-      },
-      {
-        title:
-          "[Modelling to inform the COVID-19 response in Bangladesh](https://doi.org/10.1101/2021.04.19.21255673)",
-        subtitle: "April 2021",
-        authors:
-          " Ferguson, E. A., Brum, E., Chowdhury, A., **Chowdhury, S.**, Kundegorski, M., Mahmud, A. S., Purno, N., Sania, A., Steenson, R., Tasneem, M., &amp; Hampson, K. (2021).  \nSubmitted to **Lancet Global Health**.",
-        institutions: "",
-      },
-      {
-        title:
-          "[Characterizing Noise in Whole Genome Cell-Free DNA Analysis](docs/Characterizing%20Noise%20in%20Whole%20Genome%20Cell-Free%20DNA%20Analysis%20-%20Research%20Paper.pdf)",
-        subtitle: "November 2018",
-        authors: " **Chowdhury, S.**, Schulman, R.",
-        institutions:
-          " Landau Lab, New York Genome Center / Weill Cornell Medical Center. Submitted to **Regeneron STS**.",
-      },
-    ],
-  },
-};
-
 export const about = {
   title: "A bit about myself",
   description:
-    "I'm a recent graduate of Stuyvesant High School in NYC, currently taking a gap year working in Bangladesh. The last year's been tough for everyone, so I wanted to channel my love for technology and [research](/research) to make a positive impact in the lives of people suffering from the disasters that defined 2020. Outside of work, I love playing guitar, [browsing Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/hp9wwp/biggest_lie/) and sleeping.  \n[For those interested, here's my resume.](docs/Shayan%20Chowdhury%20-%20Resume.pdf)",
+    "***\"No one is useless in this world who lightens the burdens of another.\"*** -Charles Dickens  \nThat quote means a lot to me. No matter how small, any positive impact you can have on someone or something's life **today** makes the world a better place than it was **yesterday**. That's how what keeps me going every morning.  \nOutside of work, I'm a **CS student** at **Columbia University** in New York City! Recently, I've also gotten the chance to **travel** around, from **Scotland** to **California**, and have been *trying* to post about my experiences on [Instagram](https://www.instagram.com/shayan.tist/) so feel free to check that out if interested!  \nWhile I'm not juggling being a student, head of an NGO and researcher, I love playing guitar, [browsing Reddit](https://redd.it/hp9wwp) and sleeping.",
   contact_section: {
     title: " **Feel free to reach out!**",
     description:
-      "Whether you'd like to discuss music composition through AI or just share some memes, I'd love to have a chat with you! Feel free to reach out via [email](mailto:shayan.chowdhury@gmail.com). For professional inquiries, please check my [LinkedIn](https://www.linkedin.com/in/shayan-chowdhury-4052b624/). Or if you're an adventurous coder, take a peek at my [GitHub](https://github.com/schowdhury8).",
+      "Whether you'd like to discuss music composition through AI or just share some memes, I'd love to have a chat with you! Feel free to reach out via [email](mailto:shayan.chowdhury@gmail.com). For professional inquiries, please check my [LinkedIn](https://www.linkedin.com/in/shayanhchowdhury). Or if you're an adventurous coder, take a peek at my [GitHub](https://github.com/schowdhury8).",
   },
 };

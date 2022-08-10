@@ -1,6 +1,10 @@
 import styled from "@emotion/styled";
 
-import { Card, CardWrapper, SectionContainer } from "../../components";
+import {
+  Card,
+  // CardWrapper,
+  SectionContainer,
+} from "../../components";
 
 export const HeroSection = styled(SectionContainer)`
   display: flex;

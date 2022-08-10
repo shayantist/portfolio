@@ -30,6 +30,63 @@ export const HeroTextWrapper = styled.div`
   flex: 5;
 `;
 
+export const HeroFunWrapperBorder = styled.div`
+  z-index: 20;
+  flex: 3;
+
+  position: relative;
+  :before,
+  :after {
+    content: "";
+    border-radius: 20px;
+    position: absolute;
+    left: -3px;
+    top: -3px;
+    background: linear-gradient(
+      271deg,
+      #a0e9ff 30%,
+      #a162e8 50%,
+      #f093b0 70%,
+      #edca85 94%
+    );
+    background-size: 400%;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    z-index: -1;
+    animation: gradient 15s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  :before {
+    filter: blur(1px);
+  }
+
+  :after {
+    filter: blur(25px);
+    opacity: 80%;
+  }
+
+  @media screen and (max-width: ${(props) =>
+      props.theme.measurements.mobileBreakpoint}px) {
+    max-width: 300px;
+  }
+
+  min-height: 300px;
+  min-width: 300px;
+  aspect-ratio: 1;
+`;
+
 export const HeroFunWrapper = styled.div`
   background: ${(props) => props.theme.colors.cardBackground};
   width: 100%;
@@ -40,14 +97,10 @@ export const HeroFunWrapper = styled.div`
     0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
     0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
 
-  flex: 3;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1em;
-  min-height: 300px;
-  min-width: 300px;
-  aspect-ratio: 1;
 
   img {
     height: 100%;

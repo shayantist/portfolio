@@ -6,7 +6,7 @@ export const HeaderContainer = styled.header`
   height: ${(props) => props.theme.measurements.headerHeight}px;
   display: flex;
   width: 100%;
-  z-index: 69420;
+  z-index: 10;
 `;
 
 export const NavContainer = styled.nav`

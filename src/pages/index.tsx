@@ -5,6 +5,7 @@ import {
   HeroSection,
   HeroTextWrapper,
   HeroFunWrapper,
+  HeroFunWrapperBorder,
   // WorksSection,
   // WorkCard,
 } from "../styles/pages/index.styles";
@@ -32,15 +33,17 @@ function HomePage() {
           </h3>
           <Socials />
         </HeroTextWrapper>
-        <HeroFunWrapper>
-          <Image
-            src="/assets/me.jpg"
-            alt="look at this dude"
-            width={500}
-            height={500}
-            quality={100}
-          />
-        </HeroFunWrapper>
+        <HeroFunWrapperBorder>
+          <HeroFunWrapper>
+            <Image
+              src="/assets/me.jpg"
+              alt="look at this dude"
+              width={500}
+              height={500}
+              quality={100}
+            />
+          </HeroFunWrapper>
+        </HeroFunWrapperBorder>
       </HeroSection>
 
       {/* <WorksSection>

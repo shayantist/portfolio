@@ -53,44 +53,44 @@ export const renderBlock = (block) => {
   switch (type) {
     case "paragraph":
       return (
-        <p>
+        <p key={block.id}>
           <Markdown>{textToMarkdown(text)}</Markdown>
         </p>
       );
     case "heading_1":
       return (
-        <h1>
+        <h1 key={block.id}>
           <Markdown>{textToMarkdown(text)}</Markdown>
         </h1>
       );
     case "heading_2":
       return (
-        <h2>
+        <h2 key={block.id}>
           <Markdown>{textToMarkdown(text)}</Markdown>
         </h2>
       );
     case "heading_3":
       return (
-        <h3>
+        <h3 key={block.id}>
           <Markdown>{textToMarkdown(text)}</Markdown>
         </h3>
       );
     case "quote":
       return (
-        <blockquote>
+        <blockquote key={block.id}>
           <Markdown>{textToMarkdown(text)}</Markdown>
         </blockquote>
       );
     case "bulleted_list_item":
     case "numbered_list_item":
       return (
-        <li>
+        <li key={block.id}>
           <Markdown>{textToMarkdown(text)}</Markdown>
         </li>
       );
     case "to_do":
       return (
-        <div>
+        <div key={block.id}>
           <label htmlFor={id}>
             <input type="checkbox" id={id} defaultChecked={value.checked} />
             <Markdown>{textToMarkdown(text)}</Markdown>
@@ -99,7 +99,7 @@ export const renderBlock = (block) => {
       );
     case "toggle":
       return (
-        <details>
+        <details key={block.id}>
           <summary>
             <Markdown>{textToMarkdown(text)}</Markdown>
           </summary>
@@ -109,7 +109,7 @@ export const renderBlock = (block) => {
         </details>
       );
     case "child_page":
-      return <p>{value.title}</p>;
+      return <p key={block.id}>{value.title}</p>;
     case "image":
       const src =
         value.type === "external" ? value.external.url : value.file.url;
@@ -118,7 +118,7 @@ export const renderBlock = (block) => {
           ? value.caption[0].plain_text
           : "";
       return (
-        <figure>
+        <figure key={block.id}>
           <Image
             src={src}
             alt={caption}
@@ -132,7 +132,7 @@ export const renderBlock = (block) => {
       );
     default:
       return (
-        <p>
+        <p key={block.id}>
           {`❌ Unsupported block (${
             type === "unsupported" ? "unsupported by Notion API" : type
           })`}

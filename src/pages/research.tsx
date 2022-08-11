@@ -116,6 +116,6 @@ export async function getStaticProps() {
       papersBlocks: papersBlocks,
       papersDB: papers,
     },
-    revalidate: 60,
+    revalidate: 10,
   };
 }

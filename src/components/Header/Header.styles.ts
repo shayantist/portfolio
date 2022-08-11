@@ -26,10 +26,10 @@ export const NavContainer = styled.nav`
     }
   }
 
-  /* @media screen and (max-width: ${(props) =>
-    props.theme.measurements.mobileBreakpoint}px) {
-    padding: 0 30px;
-  } */
+  @media screen and (max-width: ${(props) =>
+      props.theme.measurements.mobileBreakpoint}px) {
+    font-size: 16px;
+  }
 `;
 
 export const NavMenu = styled.ul<{ isOpen: boolean }>`

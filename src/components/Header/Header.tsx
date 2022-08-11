@@ -30,9 +30,9 @@ function Header() {
           <NavItem>
             <Link href="/research">Research</Link>
           </NavItem>
-          {/* <NavItem>
-            <NavLink href="/projects">Projects</NavLink>
-          </NavItem> */}
+          <NavItem>
+            <Link href="/projects">Projects</Link>
+          </NavItem>
           <NavItem>
             <Link href="/about">About</Link>
           </NavItem>

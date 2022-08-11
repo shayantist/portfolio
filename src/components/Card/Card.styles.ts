@@ -26,10 +26,6 @@ export const CardWrapper = styled(Card)`
     }
   }
 
-  img {
-    width: 80%;
-  }
-
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {
     padding: 2em;

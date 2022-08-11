@@ -7,5 +7,6 @@ export { default as Particles } from "./Particles/Particles";
 
 export { default as Markdown } from "./Markdown";
 
-export { CardWrapper, CardWrapper as Card } from "./Card/Card.styles";
 export { SectionContainer } from "./Container/Container.styles";
+export { CardWrapper, CardWrapper as Card } from "./Card/Card.styles";
+export { ProjectCardWrapper as ProjectCard } from "./ProjectCard/ProjectCard.styles";

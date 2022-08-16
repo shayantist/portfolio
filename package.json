@@ -28,7 +28,7 @@
     "react-responsive-masonry": "^2.1.5",
     "sharp": "^0.30.7",
     "tsparticles": "^1.36.0",
-    "vercel": "^24.2.0"
+    "vercel": "^28.0.1"
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.9.2",

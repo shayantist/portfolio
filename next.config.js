@@ -1,5 +1,6 @@
 module.exports = {
   images: {
-    domains: ["s3.us-west-2.amazonaws.com", "journavel.com"],
+    domains: ["s3.us-west-2.amazonaws.com"],
+    minimumCacheTTL: 31536000,
   },
 };

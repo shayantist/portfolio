@@ -35,20 +35,20 @@ export default function ParticleCandy() {
             blur: 1,
           },
         },
-        interactivity: {
-          events: {
-            onhover: {
-              enable: true,
-              mode: "bubble",
-            },
-          },
-          modes: {
-            bubble: {
-              size: 6,
-              distance: 40,
-            },
-          },
-        },
+        // interactivity: {
+        //   events: {
+        //     onhover: {
+        //       enable: true,
+        //       mode: "bubble",
+        //     },
+        //   },
+        //   modes: {
+        //     bubble: {
+        //       size: 6,
+        //       distance: 40,
+        //     },
+        //   },
+        // },
       }}
     />
   );

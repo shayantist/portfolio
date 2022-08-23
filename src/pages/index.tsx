@@ -23,7 +23,12 @@ function HomePage() {
         <HeroTextWrapper>
           <h1>{content.title}</h1>
           <h3>
-            <Markdown>{content.description}</Markdown>
+            {content.description.map((e) => (
+              <>
+                <Markdown>{e}</Markdown>
+                <p style={{ marginTop: "5px" }} />
+              </>
+            ))}
             <p style={{ marginTop: "15px" }} />
             <Markdown>{content.subtitle}</Markdown>
             <p style={{ marginTop: "15px" }} />

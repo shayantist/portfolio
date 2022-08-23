@@ -14,6 +14,11 @@ export const HeroSection = styled(SectionContainer)`
 
   padding-top: ${(props) => props.theme.measurements.headerHeight + 20}px;
 
+  h3 {
+    font-size: 1.6em;
+    margin-bottom: 5px;
+  }
+
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {
     padding-top: ${(props) => props.theme.measurements.headerHeight}px;

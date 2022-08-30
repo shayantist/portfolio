@@ -14,7 +14,7 @@
     "start-api": "cd api && venv/Scripts/flask run --no-debugger"
   },
   "dependencies": {
-    "@emotion/react": "^11.9.0",
+    "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.8.1",
     "@notionhq/client": "^1.0.4",
     "browserslist": "^4.21.3",

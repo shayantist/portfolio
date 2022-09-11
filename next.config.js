@@ -7,7 +7,8 @@ module.exports = {
     return [
       {
         source: "/resume",
-        destination: "/docs/Shayan%20Chowdhury%20-%20Resume.pdf",
+        destination:
+          "https://docs.google.com/gview?embedded=true&url=https://www.shayanchowdhury.com/docs/Shayan%20Chowdhury%20-%20Resume.pdf",
         permanent: false,
       },
     ];

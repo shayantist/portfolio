@@ -8,7 +8,7 @@ module.exports = {
       {
         source: "/resume",
         destination:
-          "https://docs.google.com/gview?embedded=true&url=https://www.shayanchowdhury.com/docs/Shayan%20Chowdhury%20-%20Resume.pdf",
+          "https://docs.google.com/gview?url=https://www.shayanchowdhury.com/docs/Shayan%20Chowdhury%20-%20Resume.pdf",
         permanent: false,
       },
     ];

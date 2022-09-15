@@ -7,8 +7,7 @@ export const work = {
     "**Amateur Guitarist** @ *my bedroom*",
   ],
   subtitle: "Thanks for dropping by!",
-  subtitle2:
-    "For those interested, [**here's my resume.**](docs/Shayan%20Chowdhury%20-%20Resume.pdf)",
+  subtitle2: "For those interested, **[here's my resume.](/resume)**",
   currentWork: {
     title: "Current Work",
     works: [
@@ -16,7 +15,6 @@ export const work = {
         title: "[COVID-19 in Bangladesh](https://corona.gov.bd/)",
         subtitle: "Data Analyst",
         link: "https://corona.gov.bd/",
-        image: "",
         description:
           "As a member of the **National COVID-19 Policy Dashboard Commitee** under the **Ministries of Health and IT**, I analyze COVID-19 data on tests, cases, hospitalizations, deaths and movement across the country to influence national policy on testing, targeted lockdowns and now vaccinations. Since March 2020, I've been **coordinating epidemiological data analysis and modeling** with reputed research institutions and **developing decision-making tools** for senior policymakers, from district coordinators to the Prime Minister, to make **timely decisions on lives and livelihoods across the country**.",
       },
@@ -24,7 +22,6 @@ export const work = {
         title: "[Reach4Help](https://reach4help.org/)",
         subtitle: "Executive Director & Co-founder",
         link: "https://reach4help.org/",
-        image: "",
         description:
           "Since co-founding it in March 2020, I lead the **tech nonprofit Reach4Help**, **connecting people in need with local volunteer help**. Amassing over **500 volunteers from 38 countries**, we're digitally enabling **volunteer organizations worldwide** from Montréal, New York, Dhaka, Lisbon, New Delhi and more to make volunteer help accessible during times of crisis. Today, our **[global map of aid](https://map.reach4help.org/)** is a **crisis resource aggregation platform** for **over 10 thousand charitable organizations**, nonprofits and service providers worldwide. Through our comprehensive pipeline for collecting, verifying, updating and mapping out resources in real-time, we're providing **access to critical resources for thousands of people in need everyday**. For our efforts, we were honored to receive a **grant of $120,000** for the year from the **Google for Nonprofits** program for software, outreach, maintenance and hosting.",
       },
@@ -32,7 +29,6 @@ export const work = {
         title: "[Migrant Nation](https://migrantnation.org/)",
         subtitle: "Software Developer",
         link: "https://migrantnation.org/",
-        image: "",
         description:
           "In the **Rohingya refugee camps**, I'm developing an **e-commerce marketplace** with **United Nations agencies** (UNDP, UNHCR, WFP) to help those who have been displaced **produce and sell products to consumers worldwide**, on the way to **financial sustainability**. Recently, I built an app currently being used in the camps for them to **earn hourly wages while ensuring they can't be exploited** in by far, the most fulfilling experience of my life.",
       },

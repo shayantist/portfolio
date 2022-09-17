@@ -7,7 +7,7 @@ export const work = {
     "**Amateur Guitarist** @ *my bedroom*",
   ],
   subtitle: "Thanks for dropping by!",
-  subtitle2: "For those interested, **[here's my resume.](/resume)**",
+  subtitle2: "For those interested, **[here's my resume](/resume)**.",
   currentWork: {
     title: "Current Work",
     works: [

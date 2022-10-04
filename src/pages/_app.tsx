@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/inline-script-id */
 import React, { useState } from "react";
 import type { AppProps } from "next/app";
 
@@ -10,6 +11,7 @@ import { Particles } from "../components";
 
 // Components
 import { Header, Footer } from "../components";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [theme] = useState("dark"); // add setTheme when adding theme toggle
@@ -17,19 +19,37 @@ function MyApp({ Component, pageProps }: AppProps) {
   // const themeToggler = () => {
   //   theme === "light" ? setTheme("dark") : setTheme("light");
   // };
-
   return (
-    <ThemeProvider theme={theme === "light" ? darkTheme : darkTheme}>
-      <GlobalStyles />
-      <Header />
+    <>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        // eslint-disable-next-line react/jsx-no-comment-textnodes
+      />
 
-      <Particles />
-      <AnimatePresence exitBeforeEnter>
-        <Component {...pageProps} />
-      </AnimatePresence>
+      <Script strategy="lazyOnload">
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+        page_path: window.location.pathname,
+        });
+    `}
+      </Script>
 
-      <Footer />
-    </ThemeProvider>
+      <ThemeProvider theme={theme === "light" ? darkTheme : darkTheme}>
+        <GlobalStyles />
+        <Header />
+
+        <Particles />
+        <AnimatePresence exitBeforeEnter>
+          <Component {...pageProps} />
+        </AnimatePresence>
+
+        <Footer />
+      </ThemeProvider>
+    </>
   );
 }
 

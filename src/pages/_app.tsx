@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Script
         strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-1K0W2VZKJ4`}
         // eslint-disable-next-line react/jsx-no-comment-textnodes
       />
 
@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+        gtag('config', 'G-1K0W2VZKJ4', {
         page_path: window.location.pathname,
         });
     `}

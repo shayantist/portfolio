@@ -9,7 +9,7 @@ export const work = {
   subtitle: "Thanks for dropping by!",
   subtitle2: "For those interested, **[here's my resume](/resume)**.",
   currentWork: {
-    title: "Current Work",
+    title: "What I'm working on",
     works: [
       {
         title: "[COVID-19 in Bangladesh](https://corona.gov.bd/)",

@@ -22,7 +22,7 @@ export const HeroSection = styled(SectionContainer)`
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {
     padding-top: ${(props) => props.theme.measurements.headerHeight}px;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     gap: 1em;
 
     h5 {
@@ -32,7 +32,7 @@ export const HeroSection = styled(SectionContainer)`
 `;
 
 export const HeroTextWrapper = styled.div`
-  flex: 5;
+  flex: 6;
 `;
 
 export const HeroFunWrapperBorder = styled.div`
@@ -96,7 +96,6 @@ export const HeroFunWrapper = styled.div`
   background: ${(props) => props.theme.colors.cardBackground};
   width: 100%;
   border-radius: 20px;
-  padding: 2em;
 
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
     0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
@@ -110,6 +109,7 @@ export const HeroFunWrapper = styled.div`
   img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
     border-radius: 20px;
     filter: grayscale(50%);
   }
@@ -117,7 +117,6 @@ export const HeroFunWrapper = styled.div`
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {
     max-width: 300px;
-    padding: 2em;
   }
 `;
 

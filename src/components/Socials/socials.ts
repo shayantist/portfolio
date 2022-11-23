@@ -1,6 +1,6 @@
 import {
   // FaFacebookSquare,
-  // FaTwitter,
+  FaTwitter,
   FaInstagram,
   FaLinkedin,
   FaGithub,
@@ -33,11 +33,11 @@ const socials = [
   //   logo: FaFacebookSquare,
   //   link: "https://www.facebook.com/Reach4HelpOrg/",
   // },
-  // {
-  //   name: "Twitter",
-  //   logo: FaTwitter,
-  //   link: "https://twitter.com/Reach4HelpOrg",
-  // },
+  {
+    name: "Twitter",
+    logo: FaTwitter,
+    link: "https://twitter.com/shayantiste",
+  },
 ];
 
 export default socials;

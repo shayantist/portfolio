@@ -22,7 +22,7 @@ export const HeroSection = styled(SectionContainer)`
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {
     padding-top: ${(props) => props.theme.measurements.headerHeight}px;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     gap: 1em;
 
     h5 {
@@ -32,7 +32,7 @@ export const HeroSection = styled(SectionContainer)`
 `;
 
 export const HeroTextWrapper = styled.div`
-  flex: 6;
+  flex: 5;
 `;
 
 export const HeroFunWrapperBorder = styled.div`

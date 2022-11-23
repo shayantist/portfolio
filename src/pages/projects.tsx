@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 import moment from "moment";
 import {
   HeroSection,
@@ -7,7 +6,7 @@ import {
   ProjectsSection,
 } from "../styles/pages/projects.styles";
 
-import { ProjectCard, Page } from "../components";
+import { ProjectCard, Page, SEOHead } from "../components";
 
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
@@ -23,9 +22,7 @@ interface Project {
 export default function ProjectsPage({ pageTitle, blocks, projects }: any) {
   return (
     <Page>
-      <Head>
-        <title>{`Shayan Chowdhury | ${pageTitle}`}</title>
-      </Head>
+      <SEOHead title={`Shayan Chowdhury | ${pageTitle}`} />
       <HeroSection>
         <HeroTextWrapper>
           <h1>{pageTitle}</h1>

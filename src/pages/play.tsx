@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 // import Image from "next/image";
 import {
   HeroSection,
@@ -9,15 +8,13 @@ import {
   // WorkCard,
 } from "../styles/pages/index.styles";
 
-import { Page, Time } from "../components";
+import { Page, SEOHead, Time } from "../components";
 // import parseMarkdown from "../utils/parseMarkdown";
 
 function PlayPage() {
   return (
     <Page>
-      <Head>
-        <title>Shayan Chowdhury | Playground</title>
-      </Head>
+      <SEOHead title="Shayan Chowdhury | Playground" />
       <HeroSection>
         <HeroTextWrapper>
           <h1>Project Playground</h1>

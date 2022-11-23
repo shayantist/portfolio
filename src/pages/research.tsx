@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 import {
   HeroSection,
   HeroTextWrapper,
@@ -7,7 +6,7 @@ import {
   ResearchCard,
 } from "../styles/pages/research.styles";
 
-import { Page } from "../components";
+import { Page, SEOHead } from "../components";
 
 interface PageProps {
   pageTitle: string;
@@ -28,9 +27,7 @@ interface Paper {
 export default function ResearchPage(props: PageProps) {
   return (
     <Page>
-      <Head>
-        <title>{`Shayan Chowdhury | ${props.pageTitle}`}</title>
-      </Head>
+      <SEOHead title={`Shayan Chowdhury | ${props.pageTitle}`} />
       <HeroSection>
         <HeroTextWrapper>
           {props.heroBlocks.map((block: any) => renderBlock(block))}

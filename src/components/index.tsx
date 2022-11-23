@@ -6,6 +6,7 @@ export { default as Time } from "./Time/Time";
 export { default as Particles } from "./Particles/Particles";
 
 export { default as Markdown } from "./Markdown";
+export { default as SEOHead } from "./SEOHead";
 
 export { SectionContainer } from "./Container/Container.styles";
 export { CardWrapper, CardWrapper as Card } from "./Card/Card.styles";

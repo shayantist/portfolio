@@ -10,15 +10,13 @@ import {
   // WorkCard,
 } from "../styles/pages/index.styles";
 
-import { Page, Socials, Markdown } from "../components";
+import { Page, Socials, Markdown, SEOHead } from "../components";
 import { work as content } from "../content";
 
 function HomePage() {
   return (
     <Page>
-      <Head>
-        <title>Shayan Chowdhury</title>
-      </Head>
+      <SEOHead title="Shayan Chowdhury" />
       <HeroSection>
         <HeroTextWrapper>
           <h1>{content.title}</h1>

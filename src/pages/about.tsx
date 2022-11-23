@@ -7,16 +7,14 @@ import {
   ContactSection,
 } from "../styles/pages/about.styles";
 
-import { Page } from "../components";
+import { Page, SEOHead } from "../components";
 import { about as content } from "../content";
 import { Markdown } from "../components";
 
 export default function AboutPage() {
   return (
     <Page>
-      <Head>
-        <title>Shayan Chowdhury | About</title>
-      </Head>
+      <SEOHead title="Shayan Chowdhury | About" />
       <HeroSection>
         <HeroTextWrapper>
           <h1>{content.title}</h1>

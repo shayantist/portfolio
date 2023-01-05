@@ -7,7 +7,7 @@ import {
   FaRegEnvelope,
 } from "react-icons/fa";
 
-const socials = [
+export default [
   {
     name: "LinkedIn",
     logo: FaLinkedin,
@@ -39,5 +39,3 @@ const socials = [
     link: "https://twitter.com/shayantiste",
   },
 ];
-
-export default socials;

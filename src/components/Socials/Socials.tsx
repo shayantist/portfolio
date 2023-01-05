@@ -1,6 +1,6 @@
 import React from "react";
 
-import Logos from "./socials";
+import Logos from "./Links";
 
 import { SocialsWrapper } from "./Socials.styles";
 

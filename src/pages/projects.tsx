@@ -53,7 +53,7 @@ export default function ProjectsPage({ pageTitle, blocks, projects }: any) {
 
 import { getBlocks, getDatabase, getPage } from "../utils/notion";
 import { renderBlock, textToMarkdown } from "../utils/notion-utils";
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const notion_page_url = "b53164fed43c490d8a13306026a67d49";
   const page: any = await getPage(notion_page_url);
   const pageTitle = textToMarkdown(page.properties.title.title);
@@ -117,6 +117,6 @@ export async function getStaticProps() {
       blocks: blocks,
       projects: projects,
     },
-    revalidate: 10,
+    // revalidate: 10,
   };
 }

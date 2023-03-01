@@ -16,7 +16,7 @@ export default [
   {
     name: "GitHub",
     logo: FaGithub,
-    link: "https://github.com/schowdhury8",
+    link: "https://github.com/shayantist",
   },
   {
     name: "Instagram",

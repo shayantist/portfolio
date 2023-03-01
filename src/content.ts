@@ -44,6 +44,6 @@ export const about = {
   contact_section: {
     title: " **Feel free to reach out!**",
     description:
-      "Whether you'd like to debate about AI world domination or just share some memes, I'd love to chat! Feel free to reach out via [email](mailto:shayan.chowdhury@gmail.com). For professional inquiries, please check my [LinkedIn](https://www.linkedin.com/in/shayanhchowdhury). Or if you're an adventurous coder, take a peek at my [GitHub](https://github.com/schowdhury8).",
+      "Whether you'd like to debate about AI world domination or just share some memes, I'd love to chat! Feel free to reach out via [email](mailto:shayan.chowdhury@gmail.com). For professional inquiries, please check my [LinkedIn](https://www.linkedin.com/in/shayanhchowdhury). Or if you're an adventurous coder, take a peek at my [GitHub](https://github.com/shayantist).",
   },
 };

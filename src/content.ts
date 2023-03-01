@@ -1,9 +1,10 @@
 export const work = {
   title: "Hi, I'm Shayan",
   description: [
-    "**Student & Researcher** @ Columbia University",
+    "**Student & Researcher** @ [**Columbia University**](https://www.researchgate.net/profile/Shayan-Chowdhury-3)",
     "**Founder & Executive Director** @ [**Reach4Help**](https://reach4help.org/)",
-    "**Global Shaper** @ World Economic Forum",
+    "**Global Shaper** @ [**World Economic Forum**](https://www.globalshapers.org/hubs/nyc-queens-hub)",
+    "**Director of Mentorship** @ [**Harvard CVT**](https://scholar.harvard.edu/cvt/people/shayan-chowdhury)",
     "**Amateur Guitarist** @ *my bedroom*",
   ],
   subtitle: "Thanks for dropping by!",

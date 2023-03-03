@@ -1,6 +1,6 @@
 module.exports = {
   images: {
-    domains: ["s3.us-west-2.amazonaws.com"],
+    domains: ["s3.us-west-2.amazonaws.com", "lh3.googleusercontent.com"],
     minimumCacheTTL: 31536000,
   },
   async redirects() {

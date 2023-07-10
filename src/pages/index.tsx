@@ -39,7 +39,7 @@ function HomePage() {
           <HeroFunWrapper>
             <Image
               src="/assets/me.jpg"
-              alt="look at this dude"
+              alt="shayantist"
               width={500}
               height={500}
               quality={80}

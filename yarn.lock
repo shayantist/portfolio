@@ -3864,10 +3864,10 @@ react-particles-js@^3.6.0:
   dependencies:
     lodash "^4.17.11"
 
-react-responsive-masonry@^2.1.5:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/react-responsive-masonry/-/react-responsive-masonry-2.1.5.tgz#58854def9ef321a87adb839b6cdec1e26b7d15c9"
-  integrity sha512-qXoE8Whrgw2smNRKAcX2z+kZDH7uiii1uyJ92cMOpe59CGdMbj7qbT9I9540GKxFLVUYr9zlU4n4lCfsfy+09A==
+react-responsive-masonry@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-responsive-masonry/-/react-responsive-masonry-2.2.0.tgz#95ba1fe16295f2071dbe98e72420167aad4e7e8f"
+  integrity sha512-IYbnfe2tWCZ3pvyTLyBWPj7uv5ZmNOULYMcAZi5a47ZLhSotOck1vkkISq6gP2qiyWdMvPfeMhjvYzUYGw9BOQ==
 
 react@^17.0.2:
   version "17.0.2"

@@ -50,6 +50,7 @@ export default function ResearchPage(props: PageProps) {
 }
 
 const notion_page_url = "e1a2532d342f4b9cb926aac959de069e";
+const number_of_hero_blocks = 3;
 import { getBlocks, getDatabase, getPage } from "../utils/notion";
 import { renderBlock, textToMarkdown } from "../utils/notion-utils";
 import moment from "moment";
@@ -61,8 +62,8 @@ export async function getStaticProps() {
   const blocks = await getBlocks(notion_page_url);
 
   // Split the blocks into two sections (one for hero and one for bottom)
-  const heroBlocks = blocks.slice(0, 2);
-  const papersBlocks = blocks.slice(2, blocks.length);
+  const heroBlocks = blocks.slice(0, number_of_hero_blocks);
+  const papersBlocks = blocks.slice(number_of_hero_blocks, blocks.length);
 
   // Extract the inline DB and get all its entries
   const papersDBBlock = papersBlocks.pop();

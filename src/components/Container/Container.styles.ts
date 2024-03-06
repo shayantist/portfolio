@@ -6,7 +6,7 @@ export const SectionContainer = styled.section`
   max-width: ${(props) => props.theme.measurements.maxWidth}px;
 
   h1 {
-    font-size: clamp(1.5em, 14vw, 4.5em);
+    font-size: clamp(1.5em, 14vw, 3.5em);
     line-height: 122%;
 
     background: linear-gradient(
@@ -60,7 +60,9 @@ export const SectionContainer = styled.section`
     color: ${(props) => props.theme.colors.accent};
     box-shadow: inset 0 -4px 0 -1px ${(props) => props.theme.colors.accent};
 
-    transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition:
+      color 0.2s ease-in-out,
+      box-shadow 0.2s ease-in-out;
 
     :hover {
       color: white;

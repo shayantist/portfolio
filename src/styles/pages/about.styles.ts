@@ -21,7 +21,7 @@ export const HeroTextWrapper = styled.div`
 export const ContactSection = styled(SectionContainer)`
   display: grid;
   gap: 1em;
-  margin: 4em auto 0;
+  margin: 2em auto 0;
 
   @media screen and (max-width: ${(props) =>
       props.theme.measurements.mobileBreakpoint}px) {

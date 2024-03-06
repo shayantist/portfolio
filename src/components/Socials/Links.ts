@@ -6,12 +6,18 @@ import {
   FaGithub,
   FaRegEnvelope,
 } from "react-icons/fa";
+import { SiGooglescholar } from "react-icons/si";
 
 export default [
   {
     name: "LinkedIn",
     logo: FaLinkedin,
     link: "https://www.linkedin.com/in/shayanhchowdhury",
+  },
+  {
+    name: "Google Scholar",
+    logo: SiGooglescholar,
+    link: "https://scholar.google.com/citations?user=upxVTlMAAAAJ",
   },
   {
     name: "GitHub",

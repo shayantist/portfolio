@@ -20,6 +20,12 @@ export default function AboutPage() {
           <p>
             <Markdown>{content.description}</Markdown>
           </p>
+          <p style={{ marginTop: "20px" }}>
+            <Markdown>{content.quote.text}</Markdown>
+          </p>
+          <p style={{ marginLeft: "25px" }}>
+            <Markdown>{content.quote.author}</Markdown>
+          </p>
         </HeroTextWrapper>
       </HeroSection>
       <ContactSection>

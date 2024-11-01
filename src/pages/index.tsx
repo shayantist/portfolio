@@ -23,16 +23,16 @@ function HomePage() {
             {content.description.map((e) => (
               <>
                 <Markdown>{e}</Markdown>
-                <p style={{ marginTop: "5px" }} />
+                <div style={{ marginTop: "5px" }} />
               </>
             ))}
-            <p style={{ marginTop: "15px" }} />
+            <div style={{ marginTop: "15px" }} />
             <Markdown>{content.subtitle}</Markdown>
-            <p style={{ marginTop: "15px" }} />
-            <h5>
-              <Markdown>{content.subtitle2}</Markdown>
-            </h5>
+            <div style={{ marginTop: "15px" }} />
           </h3>
+          <h5>
+            <Markdown>{content.subtitle2}</Markdown>
+          </h5>
           <Socials />
         </HeroTextWrapper>
         <HeroFunWrapperBorder>

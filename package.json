@@ -18,7 +18,7 @@
     "@emotion/styled": "^11.13.0",
     "@notionhq/client": "^2.2.14",
     "browserslist": "^4.23.1",
-    "framer-motion": "^5.3.1",
+    "framer-motion": "^11.11.15",
     "moment": "^2.29.4",
     "next": "^15.0.2",
     "react": "18.2",

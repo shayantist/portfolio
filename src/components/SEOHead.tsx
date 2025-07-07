@@ -6,7 +6,7 @@ const globalMeta = {
   siteLogo: "https://www.shayanchowdhury.com/logo512.png",
   email: "sc4040@columbia.edu",
   description:
-    "Hi, I'm Shayan! I'm a computer science and public policy student at Columbia University, AI and Medicine Research Trainee at Harvard Medical School, founder of the tech nonprofit Reach4Help, and a climate policy leader with Al Gore's Climate Reality Project working to solve societal challenges through AI and human resilience. For my work, I've been honored to be invited to speak at Google, the UN Headquarters, the International Youth Conference, and events hosted by the World Economic Forum. Come and drop by!",
+    "Hi, I'm Shayan! I'm a computer science and public policy student at Columbia University, Research Assistant at Harvard Medical School's AI in Medicine (AIM) Program, founder of the tech nonprofit Reach4Help, and a climate policy leader with Al Gore's Climate Reality Project working to solve societal challenges through AI and human resilience. For my work, I've been honored to be invited to speak at Google, the UN Headquarters, the International Youth Conference, and events hosted by the World Economic Forum. Come and drop by!",
 };
 
 export default function SEO({
